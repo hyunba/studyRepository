@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="root"></div>
+    </body>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+    <script type="text/babel">
+        const root = document.getElementById("root");
+        function App() {
+            const [counter, modifier] = React.useState(0);
+            const onClick = () => {
+                // modifier(counter + 1); // modifier 함수는 값을 하나만 받는다. 어떤 값을 부여하던 그 값으로 업데이트하고 리렌더링을 만들어준다.
+            // React JS는 전체를 리렌더링을 하는 것이 아닌 바뀐 부분만 업데이트가 가능하다.
+                modifier((current) => current + 1); // 더 나은 방법 (예상치 못한 업데이트가 발생해도 혼동을 주는 것을 방지)
+            };
+            return (
+                <div>
+                    <h3>Hi : {counter}</h3>
+                    <button onClick={onClick}>Click</button>
+                </div>
+            );
+        }
+        ReactDOM.render(<App />, root);
+    </script>
+</html>

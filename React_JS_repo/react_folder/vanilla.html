@@ -1,0 +1,24 @@
+<!-- 바닐라 JS와 React.JS 비교-->
+<!DOCTYPE html>
+<html>
+    <!--첫 번째 내용 생성-->
+    <body>
+        <span>Total clicks: 0</span>
+        <button id="btn">Click me</button>
+    </body>
+    <script>
+        // 두 번째 javascript 만들기
+        let counter = 0;
+        const button = document.getElementById("btn");
+        const span = document.querySelector("span");
+
+        // 네 번째 데이터 업데이트
+        function handleClick() {
+            counter = counter + 1;
+            span.innerText = `Total clicks: ${counter}`;
+        }
+
+        // 세 번째 event 감지하기
+        button.addEventListener("click", handleClick);
+    </script>
+</html>

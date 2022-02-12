@@ -1,0 +1,59 @@
+<!-- 바닐라 JS와 React.JS 비교-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="root"></div>
+    </body>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <!--브라우저는 JSX를 모르기 때문에 babel을 사용해서 변환해준다-->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+    <!--babel을 사용하기 때문에 type도 설정해준다.-->
+    <script type="text/babel">
+        const root = document.getElementById("root");
+
+        // JSX로 코드를 바꿔서 사용 밑에 코드와 동일한 동작을 취함.
+        const Title = () => (
+            <h3 id="title" onMouseEnter = {() => console.log("mouse enter")}> 
+                Hi 
+            </h3>
+        );
+        // const h3 = React.createElement( 
+        //     "h3", 
+        //     {
+        //         id : "title",
+        //         onMouseEnter: () => console.log("mouse enter")
+        //     }, 
+        //     "Hi"
+        //     ); 3:12
+
+        const Btn = () => (
+            <button style={{backgroundColor: "blue"}} onClick = {() => console.log("click!")}>
+                Click me
+            </button>
+        );
+        // const btn = React.createElement(
+        //     "button", 
+        //     { 
+        //         onClick: () => console.log("click"),
+        //         style: {
+        //             backgroundColor: "blue"
+        //         }
+        //     }, 
+        //     "Click me"
+        //     );
+
+        // JSX 방법으로 Title과 btn을 포함시키기 위해서는 둘을 함수로 만들어야한다.
+        // ex) const btn = () => (); 이것을 우리는 arrow function이라고 한다.
+        // Title과 Btn 처럼 컴포넌트의 첫 글자는 반드시 대문자를 사용해야한다.
+        const Container = () => (
+            <div>
+                <Title /> 
+                <Btn />
+            </div>
+        );
+        // const container = React.createElement("div", null, [Title, btn]); //span과 button을 둘 다 render 할 수 있게 div 생성
+
+        ReactDOM.render(<Container />, root);
+    </script>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="root"></div>
+    </body>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+    <script type="text/babel">
+        // parent 값인 App에서 컴포넌트를 재사용할 때 onClick 기능을 바로 주면 기능으로 쓰이는게 아닌 prop의 인자의 값으로 들어가게된다.
+        function Btn({ potato, onClick }) {
+            return(
+                <button  
+                onClick = {onClick}
+                style = {{
+                    backgroundColor: "skyblue",
+                    color: "white",
+                    padding: "10px 20px",
+                    border: 0,
+                    borderRadius: 10,           
+                }}>
+                {potato}
+                </button>
+            );
+        }
+        // React에서 memo의 기능은 prop의 인자값이 바뀌지 않는 대상은 re-render를 하지 않게 하기위해 쓰인다.
+        const MemorizedBtn = React.memo(Btn); 
+        function App() {
+            const [value, setValue] = React.useState("Change Button");
+            const changeValue = () => setValue("Revert Changes");
+            return (
+                <div>
+                    <MemorizedBtn potato={value} onClick={changeValue} />
+                    <MemorizedBtn potato="tomato" />
+                </div>
+            );
+        }
+        
+        const root = document.getElementById("root");
+        ReactDOM.render(<App />, root);
+    </script>
+</html>

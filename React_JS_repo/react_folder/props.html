@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="root"></div>
+    </body>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+    <script type="text/babel">
+        // prop을 이용하게되면 컴포넌트를 재사용할 수 있게된다.
+        // Btn({}) 괄호를 넣게되면 props 내부이므로 내부의 potato를 넣게되면 인자 순서대로 출력된다.
+        // 컴포넌트에 big이라는 새로운 인자를 주면서 fontSize에서 삼항연산자를 사용할 수 있게된다.
+        function Btn({ potato, big }) {
+            return(
+                <button style = {{
+                    backgroundColor: "skyblue",
+                    color: "white",
+                    padding: "10px 20px",
+                    border: 0,
+                    borderRadius: 10,    
+                    fontSize: big ? 18 : 10,        
+                }}>
+                {potato}
+                </button>
+            );
+        }
+        function App() {
+            return (
+                <div>
+                    <Btn potato="potato" big={true} />
+                    <Btn potato="tomato" big={false} />
+                </div>
+            );
+        }
+        
+        const root = document.getElementById("root");
+        ReactDOM.render(<App />, root);
+    </script>
+</html>

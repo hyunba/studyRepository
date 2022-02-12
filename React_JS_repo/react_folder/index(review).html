@@ -1,0 +1,25 @@
+<!-- 바닐라 JS와 React.JS 비교-->
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="root"></div>
+    </body>
+    <!-- React JS의 규칙 중 하나는 HTML의 body안에 직접 작성하지 않는다는 것.
+        React JS는 어플리케이션이 interactive하게 만들어주고,
+        react-dom은 모든 React element들을 HTML body에 둘 수 있게 해준다.-->
+
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script>
+        // 첫 번째 Element 만들기 위의 src에서 React를 import 했기 때문에 React object에 접근할 수 있게된다.
+        const span = React.createElement("span", { id: "create-span" }); // createElement 내부에는 생성하고자 하는 HTML 태그와 똑같은 이름을 사용해준다. 
+        // 추가로 두 번째 argument에 {id}를 붙여주면서 span id = creat- span이 생성된 것을 알 수 있다.
+
+        // reactDOM에게 위치를 알려주기위해 body에 공간을 생성해준다.
+        const root = document.getElementById("root");
+
+        // 두 번째 react-dom을 import 했기 때문에 ReactDOM을 사용 가능해지는데,
+        // 여기서 render의 의미는 React element를 가지고 HTML로 만들어 배치한다는 뜻
+        ReactDOM.render(span, root); // 하지만 reactDOM은 주어진 element가 어디에 배치해야하는지 모르기 때문에 body에서 원하는 위치에 id나 class를 정해줘야한다.
+    </script>
+</html>
