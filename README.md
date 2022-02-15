@@ -2,6 +2,6 @@
 
 ## :computer: 기술 스택
 
-|<img src="https://user-images.githubusercontent.com/68241269/154049428-2c2707c3-b902-4470-959f-0655c9f60fbd.png" width="80" height="80">|내용|설명|
+|<img src="https://user-images.githubusercontent.com/68241269/154050317-d1b986f3-fb70-4f87-af54-bdf915b996ab.png" width="80" height="80">|<img src="https://user-images.githubusercontent.com/68241269/154050226-93e92944-8bfa-41f6-b5d7-611a611d15e5.png" width="80" height="75">|<img src="https://user-images.githubusercontent.com/68241269/154049428-2c2707c3-b902-4470-959f-0655c9f60fbd.png" width="80" height="80">|<img src="https://user-images.githubusercontent.com/68241269/154049851-7ed2843d-2898-4e40-98d9-855ba84f1784.png" width="80" height="75">|<img src="https://user-images.githubusercontent.com/68241269/154050108-7c40a09a-63a5-437b-a1bd-f48d40794064.png" width="80" height="80">|
 |----|---|---|
 |테스트1|테스트2|테스트3|
