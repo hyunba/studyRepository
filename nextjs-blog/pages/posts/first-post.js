@@ -9,9 +9,20 @@ export default function FirstPost() {
             <button onClick={() => setCounter((prev) => prev + 1)}>+</button>
             <h2>
                 <Link href="/">
-                <a>Back to home</a>
+                <a className="active">Back to home</a>
                 </Link>
             </h2>
+            <style jsx>{`
+                h2 {
+                    background-color: teal;
+                }
+                a {
+                    text-decoration: none;
+                }
+                .active {
+                    color: yellow;
+                }
+            `}</style>
         </>
     );
 }
