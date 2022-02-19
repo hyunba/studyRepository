@@ -8,7 +8,7 @@ export default function Home() {
     (async () => {
       const response = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`);
       const { results } = await response.json();
-      // 같은 의미 const response = await (await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`)).json();
+      // 같은 의미 const response = await (await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`)).json();/
       setMovies(results);
     })();
   })
