@@ -1,12 +1,22 @@
 import { useRouter } from "next/router";
 
-export default function Detail() {
+export default function Detail({params}) {
     const router = useRouter();
+    const [title, id] = params || [];
     return (
         <div>
-            <h4>{router.query.title || "Loading.."}</h4>
+            <h4>{title}</h4>
         </div>
     );
+}
+// router는 client side에서 작동한다.
+
+export function getServerSideProps({params:{params}}){
+    return {
+        props:{
+            params,      
+        },
+    };
 }
 
 // localhost:3000/movies를 하나만 필요하다면 movies.js 하나의 파일만 있으면된다.
