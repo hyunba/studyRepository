@@ -40,6 +40,17 @@ const Box3 = styled(motion.div)`
   box-shadow: 0 2p 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
 `;
 
+const Box4 = styled(motion.div)`
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  border-radius: 40px;
+  box-shadow: 0 2p 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
+`;
+
 const Circle = styled(motion.div)`
   width: 70px;
   height: 70px;
@@ -79,6 +90,11 @@ const box3Variants= {
   hover: {scale: 1, rotateZ: 90},
 };
 
+const box4Variants= {
+  click: {borderRadius: "100px"},
+  hover: {rotateZ: 90},
+};
+
 const circleVariants = {
   start: {
     opacity: 0,
@@ -112,6 +128,8 @@ function App() {
       </Box2>
 
       <Box3 drag variants={box3Variants} whileHover="hover" whileTap="click" whileDrag="drag" />
+
+      <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
 
       <motion.div>    
       </motion.div> 
