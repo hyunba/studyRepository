@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {motion} from "framer-motion"
+import { useRef } from "react";
 
 const Wrapper = styled.div`
   display: flex;
@@ -8,6 +9,17 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+const BiggerBox = styled.div`
+  width: 600px;
+  height: 600px;
+  background-color: gray;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+`;
+
 // styled-components에도 motion을 적용하고 싶은데 <motion.Box />는 motion에 포함되지 않기 때문에 styled에 직접 적용시켜준다.
 const Box = styled(motion.div)`
   margin: 20px;
@@ -108,6 +120,7 @@ const circleVariants = {
 
 // framer motion을 div나 span에 하기 위해서는 motion.div, motion.span으로 지정해주어야한다.
 function App() {
+  const biggerBoxRef = useRef<HTMLDivElement>(null);
   return (
     <Wrapper>
       <Box 
@@ -129,7 +142,9 @@ function App() {
 
       <Box3 drag variants={box3Variants} whileHover="hover" whileTap="click" whileDrag="drag" />
 
-      <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
+      <BiggerBox ref={biggerBoxRef}>
+        <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
+      </BiggerBox>
 
       <motion.div>    
       </motion.div> 
