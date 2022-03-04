@@ -11,13 +11,14 @@ const Wrapper = styled.div`
 `;
 
 const BiggerBox = styled.div`
-  width: 600px;
-  height: 600px;
+  width: 200px;
+  height: 200px;
   background-color: gray;
   border-radius: 40px;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
+  overflow: hidden;
 `;
 
 // styled-components에도 motion을 적용하고 싶은데 <motion.Box />는 motion에 포함되지 않기 때문에 styled에 직접 적용시켜준다.
@@ -54,12 +55,12 @@ const Box3 = styled(motion.div)`
 
 const Box4 = styled(motion.div)`
   margin: 20px;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: black;
-  border-radius: 40px;
+  border-radius: 15px;
   box-shadow: 0 2p 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
 `;
 
