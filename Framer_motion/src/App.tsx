@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {motion} from "framer-motion"
+import {motion, useMotionValue} from "framer-motion"
 import { useRef } from "react";
 
 const Wrapper = styled.div`
@@ -64,6 +64,15 @@ const Box4 = styled(motion.div)`
   box-shadow: 0 2p 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
 `;
 
+const Box5 = styled(motion.div)`
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 40px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.06);
+`;
+
 const Circle = styled(motion.div)`
   width: 70px;
   height: 70px;
@@ -122,6 +131,7 @@ const circleVariants = {
 // framer motion을 div나 span에 하기 위해서는 motion.div, motion.span으로 지정해주어야한다.
 function App() {
   const biggerBoxRef = useRef<HTMLDivElement>(null);
+  const x = useMotionValue(0);
   return (
     <Wrapper>
       <Box 
@@ -146,6 +156,8 @@ function App() {
       <BiggerBox ref={biggerBoxRef}>
         <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
       </BiggerBox>
+
+      <Box5 style={{ x }} drag="x" dragSnapToOrigin />
 
       <motion.div>    
       </motion.div> 
