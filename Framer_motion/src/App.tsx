@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {motion, useMotionValue} from "framer-motion"
+import {motion, useMotionValue, useTransform} from "framer-motion"
 import { useRef } from "react";
 
 const Wrapper = styled.div`
@@ -132,6 +132,7 @@ const circleVariants = {
 function App() {
   const biggerBoxRef = useRef<HTMLDivElement>(null);
   const x = useMotionValue(0);
+  const transValue = useTransform(x, [-800, 0, 800], [2, 1, 0.1]);
   return (
     <Wrapper>
       <Box 
@@ -157,7 +158,7 @@ function App() {
         <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
       </BiggerBox>
 
-      <Box5 style={{ x }} drag="x" dragSnapToOrigin />
+      <Box5 style={{ x, scale: transValue }} drag="x" dragSnapToOrigin />
 
       <motion.div>    
       </motion.div> 
