@@ -2,12 +2,13 @@ import styled from "styled-components";
 import {motion, useMotionValue, useTransform} from "framer-motion"
 import { useRef } from "react";
 
-const Wrapper = styled.div`
+const Wrapper = styled(motion.div)`
   display: flex;
   width: 100vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background: gray;
 `;
 
 const BiggerBox = styled.div`
@@ -133,8 +134,10 @@ function App() {
   const biggerBoxRef = useRef<HTMLDivElement>(null);
   const x = useMotionValue(0);
   const transValue = useTransform(x, [-800, 0, 800], [2, 1, 0.1]);
+  const rotateValue = useTransform(x, [-800, 800], [-360, 360]);
+  const gradient = useTransform(x, [-800, 0, 800], ["black", "gray", "white"])
   return (
-    <Wrapper>
+    <Wrapper style={{ background: gradient}}>
       <Box 
         variants={boxVariants} 
         initial="start"
@@ -158,7 +161,7 @@ function App() {
         <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
       </BiggerBox>
 
-      <Box5 style={{ x, scale: transValue }} drag="x" dragSnapToOrigin />
+      <Box5 style={{ x, scale: transValue, rotateZ: rotateValue }} drag="x" dragSnapToOrigin />
 
       <motion.div>    
       </motion.div> 
