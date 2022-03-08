@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {motion, useMotionValue, useTransform} from "framer-motion"
+import {motion, useMotionValue, useTransform, useViewportScroll} from "framer-motion"
 import { useRef } from "react";
 
 const Wrapper = styled(motion.div)`
@@ -135,9 +135,11 @@ function App() {
   const x = useMotionValue(0);
   const transValue = useTransform(x, [-800, 0, 800], [2, 1, 0.1]);
   const rotateValue = useTransform(x, [-800, 800], [-360, 360]);
-  const gradient = useTransform(x, [-800, 0, 800], ["black", "gray", "white"])
+  const gradient = useTransform(x, [-800, 800], ["black", "gray"]);
+  const { scrollYProgress } = useViewportScroll();
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 5]);
   return (
-    <Wrapper style={{ background: gradient}}>
+    <Wrapper style={{ background: gradient }}>
       <Box 
         variants={boxVariants} 
         initial="start"
@@ -161,10 +163,8 @@ function App() {
         <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
       </BiggerBox>
 
-      <Box5 style={{ x, scale: transValue, rotateZ: rotateValue }} drag="x" dragSnapToOrigin />
+      <Box5 style={{ x, rotateZ: rotateValue, scale: transValue }} drag="x" dragSnapToOrigin />
 
-      <motion.div>    
-      </motion.div> 
     </Wrapper>
   );
 }
