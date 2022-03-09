@@ -129,6 +129,23 @@ const circleVariants = {
   },
 };
 
+const Svg = styled.svg`
+  width: 300px;
+  height: 300px;
+  path {
+    stroke: white;
+    stroke-width: 2;
+  }
+`;
+
+const svg = {
+  start: { pathLength: 0, fill: "rgba(255, 255, 255, 0)" },
+  end: {
+    fill: "rgba(255, 255, 255, 1)",
+    pathLength: 1,
+  },
+};
+
 // framer motion을 div나 span에 하기 위해서는 motion.div, motion.span으로 지정해주어야한다.
 function App() {
   const biggerBoxRef = useRef<HTMLDivElement>(null);
