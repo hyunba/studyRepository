@@ -5,7 +5,7 @@ import { useRef } from "react";
 const Wrapper = styled(motion.div)`
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   justify-content: center;
   align-items: center;
   background: gray;
@@ -151,8 +151,9 @@ function App() {
   const biggerBoxRef = useRef<HTMLDivElement>(null);
   const x = useMotionValue(0);
   const transValue = useTransform(x, [-800, 0, 800], [2, 1, 0.1]);
-  const rotateValue = useTransform(x, [-800, 800], [-360, 360]);
-  const gradient = useTransform(x, [-800, 800], ["black", "gray"]);
+  const rotateZ = useTransform(x, [-800, 800], [-360, 360]);
+  const gradient = useTransform(x, [-800, 800], ["linear-gradient(135deg, rgb(0, 210, 238), rgb(0, 83, 238)",
+                                                 "linear-gradient(135deg, rgb(0, 238, 155), rgb(238, 178, 0)"]);
   const { scrollYProgress } = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [1, 5]);
   return (
@@ -174,13 +175,13 @@ function App() {
         <Circle variants={circleVariants}/>
       </Box2>
 
-      <Box3 drag variants={box3Variants} whileHover="hover" whileTap="click" whileDrag="drag" />
+      <Box5 style={{ x, rotateZ, scale }} drag="x" dragSnapToOrigin />
 
       <BiggerBox ref={biggerBoxRef}>
         <Box4 drag dragSnapToOrigin variants={box4Variants} whileHover="hover" whileTap="click" />
       </BiggerBox>
 
-      <Box5 style={{ x, rotateZ: rotateValue, scale: transValue }} drag="x" dragSnapToOrigin />
+      <Box3 style={{x, scale: transValue}} drag variants={box3Variants} whileHover="hover" whileTap="click" whileDrag="drag" />
 
     </Wrapper>
   );
