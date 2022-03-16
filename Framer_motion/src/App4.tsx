@@ -19,8 +19,8 @@ const Circle = styled(motion.div)`
 `;
 
 const Box = styled(motion.div)`
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 40px;
   display: flex;
@@ -35,15 +35,15 @@ function App() {
   const [clicked, setClicked] = useState(false);
   const togglebtn = () => setClicked((prev)=>!prev);
   return (
-    <Wrapper onClick={togglebtn}>
-      <Box>
+    <Wrapper>
+      <Box onClick={togglebtn}>
         {!clicked ? (
           <Circle layoutId="circle" style={{ borderRadius: 50 }} />
         ) : null}
       </Box>
-      <Box>
+      <Box onClick={togglebtn}>
         {clicked ? (
-          <Circle layoutId="circle" style={{ borderRadius: 0, scale: 2 }} />
+          <Circle layoutId="circle" style={{ borderRadius: 0, scale: 1 }} />
         ) : null}
       </Box>
     </Wrapper>
