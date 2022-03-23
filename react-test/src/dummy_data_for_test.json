@@ -1,0 +1,5368 @@
+{
+  "data": {
+    "success": true,
+    "error": null,
+    "result": [
+      {
+        "uid": "724860",
+        "country": "kr",
+        "created_at": "2022-03-20 06:29:34",
+        "lv": 47,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 181
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 1
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 132,
+        "reward_type": "NORMAL",
+        "last_stage": "7-9"
+      },
+      {
+        "uid": "805805",
+        "country": "us",
+        "created_at": "2022-03-05 07:56:32",
+        "lv": 38,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 53
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 37
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 152,
+        "reward_type": "NORMAL",
+        "last_stage": "2-1"
+      },
+      {
+        "uid": "529992",
+        "country": "us",
+        "created_at": "2022-02-23 02:11:59",
+        "lv": 19,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 51
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 51
+          }
+        ],
+        "block_type": true,
+        "pvp_rank": 50,
+        "reward_type": "NORMAL",
+        "last_stage": "4-1"
+      },
+      {
+        "uid": "139053",
+        "country": "kr",
+        "created_at": "2022-10-10 05:49:11",
+        "lv": 10,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 56
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 10
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 164,
+        "reward_type": "NORMAL",
+        "last_stage": "1-7"
+      },
+      {
+        "uid": "371774",
+        "country": "kr",
+        "created_at": "2022-08-07 02:06:39",
+        "lv": 35,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 46
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 29
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 30
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 24
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 22
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 129,
+        "reward_type": "NORMAL",
+        "last_stage": "6-3"
+      },
+      {
+        "uid": "849491",
+        "country": "kr",
+        "created_at": "2022-03-19 04:36:55",
+        "lv": 30,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 144
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 191,
+        "reward_type": "VVIP",
+        "last_stage": "2-1"
+      },
+      {
+        "uid": "124802",
+        "country": "kr",
+        "created_at": "2022-04-02 06:55:05",
+        "lv": 86,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 97
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 62
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 62
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 86,
+        "reward_type": "VVIP",
+        "last_stage": "1-10"
+      },
+      {
+        "uid": "515495",
+        "country": "kr",
+        "created_at": "2022-06-29 09:06:19",
+        "lv": 18,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 16
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 175
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 97,
+        "reward_type": "NORMAL",
+        "last_stage": "1-9"
+      },
+      {
+        "uid": "365270",
+        "country": "kr",
+        "created_at": "2022-02-06 09:54:05",
+        "lv": 85,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 74
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 39
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 21
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 34
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 39
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 142,
+        "reward_type": "VVIP",
+        "last_stage": "8-8"
+      },
+      {
+        "uid": "034532",
+        "country": "kr",
+        "created_at": "2022-05-06 08:54:42",
+        "lv": 61,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 186
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 91
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 91
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 8
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 165,
+        "reward_type": "VIP",
+        "last_stage": "4-4"
+      },
+      {
+        "uid": "045533",
+        "country": "kr",
+        "created_at": "2022-07-11 11:10:50",
+        "lv": 22,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 90
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 135,
+        "reward_type": "VIP",
+        "last_stage": "6-11"
+      },
+      {
+        "uid": "013691",
+        "country": "jp",
+        "created_at": "2022-09-14 04:11:10",
+        "lv": 3,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 133
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 15
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 105
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 123,
+        "reward_type": "VIP",
+        "last_stage": "3-1"
+      },
+      {
+        "uid": "774324",
+        "country": "us",
+        "created_at": "2022-11-22 09:14:09",
+        "lv": 16,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 98
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 7
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 41
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 108
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 98
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 41
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 160,
+        "reward_type": "VVIP",
+        "last_stage": "3-8"
+      },
+      {
+        "uid": "468970",
+        "country": "cn",
+        "created_at": "2022-07-07 06:03:46",
+        "lv": 95,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 14
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 88
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 25
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 38
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 87,
+        "reward_type": "VIP",
+        "last_stage": "7-8"
+      },
+      {
+        "uid": "452878",
+        "country": "kr",
+        "created_at": "2022-03-02 04:08:27",
+        "lv": 64,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 3
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 154
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 56,
+        "reward_type": "VIP",
+        "last_stage": "11-6"
+      },
+      {
+        "uid": "762851",
+        "country": "kr",
+        "created_at": "2022-09-27 06:43:09",
+        "lv": 90,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 246
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 87
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 52
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 156,
+        "reward_type": "VIP",
+        "last_stage": "4-3"
+      },
+      {
+        "uid": "964896",
+        "country": "us",
+        "created_at": "2022-10-16 11:40:51",
+        "lv": 11,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 43
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 82
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 59,
+        "reward_type": "VVIP",
+        "last_stage": "3-6"
+      },
+      {
+        "uid": "948846",
+        "country": "kr",
+        "created_at": "2022-05-28 05:11:02",
+        "lv": 33,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 17
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 120
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 36
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 178,
+        "reward_type": "NORMAL",
+        "last_stage": "1-10"
+      },
+      {
+        "uid": "328880",
+        "country": "kr",
+        "created_at": "2022-09-13 02:50:56",
+        "lv": 76,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 145
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 7
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 167
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 110,
+        "reward_type": "VIP",
+        "last_stage": "5-6"
+      },
+      {
+        "uid": "858052",
+        "country": "vn",
+        "created_at": "2022-04-28 07:37:54",
+        "lv": 20,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 83
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 364
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 66
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 52
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 83
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 182,
+        "reward_type": "NORMAL",
+        "last_stage": "6-2"
+      },
+      {
+        "uid": "999543",
+        "country": "kr",
+        "created_at": "2022-10-19 02:40:31",
+        "lv": 2,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 118
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 2
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 8
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 118
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 92,
+        "reward_type": "NORMAL",
+        "last_stage": "10-11"
+      },
+      {
+        "uid": "242794",
+        "country": "kr",
+        "created_at": "2022-08-18 11:11:24",
+        "lv": 40,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 45
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 14
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 72
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 45
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 198,
+        "reward_type": "VVIP",
+        "last_stage": "2-11"
+      },
+      {
+        "uid": "859677",
+        "country": "kr",
+        "created_at": "2022-09-10 08:26:45",
+        "lv": 56,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 90
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 141
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 64
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 56
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 27
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 13
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 199,
+        "reward_type": "VVIP",
+        "last_stage": "8-5"
+      },
+      {
+        "uid": "911639",
+        "country": "kr",
+        "created_at": "2022-02-23 03:11:50",
+        "lv": 15,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 31
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 14
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 93,
+        "reward_type": "VIP",
+        "last_stage": "3-5"
+      },
+      {
+        "uid": "016306",
+        "country": "kr",
+        "created_at": "2022-10-22 01:47:18",
+        "lv": 9,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 10
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 34
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 122,
+        "reward_type": "VVIP",
+        "last_stage": "2-8"
+      },
+      {
+        "uid": "814105",
+        "country": "kr",
+        "created_at": "2022-05-15 10:21:48",
+        "lv": 50,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 30
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 107
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 150
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 150
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 173
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 53,
+        "reward_type": "VVIP",
+        "last_stage": "1-5"
+      },
+      {
+        "uid": "815697",
+        "country": "cn",
+        "created_at": "2022-07-18 08:29:26",
+        "lv": 47,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 21
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 21
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 27,
+        "reward_type": "VVIP",
+        "last_stage": "11-2"
+      },
+      {
+        "uid": "048532",
+        "country": "kr",
+        "created_at": "2022-07-19 01:18:48",
+        "lv": 10,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 7
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 7
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 315
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 187
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 88
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 54,
+        "reward_type": "VVIP",
+        "last_stage": "5-4"
+      },
+      {
+        "uid": "167095",
+        "country": "us",
+        "created_at": "2022-11-15 11:35:17",
+        "lv": 33,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 7
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 13,
+        "reward_type": "VVIP",
+        "last_stage": "5-4"
+      },
+      {
+        "uid": "374466",
+        "country": "kr",
+        "created_at": "2022-03-07 04:03:26",
+        "lv": 10,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 45
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 29
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 13
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 39
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 172
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 109,
+        "reward_type": "NORMAL",
+        "last_stage": "2-3"
+      },
+      {
+        "uid": "275607",
+        "country": "kr",
+        "created_at": "2022-04-24 04:28:37",
+        "lv": 67,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 208
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 27
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 41,
+        "reward_type": "NORMAL",
+        "last_stage": "1-11"
+      },
+      {
+        "uid": "947056",
+        "country": "kr",
+        "created_at": "2022-10-16 04:33:42",
+        "lv": 68,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 10
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 57
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 26,
+        "reward_type": "VVIP",
+        "last_stage": "3-11"
+      },
+      {
+        "uid": "566118",
+        "country": "kr",
+        "created_at": "2022-11-23 01:39:22",
+        "lv": 35,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 43
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 22
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 126
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 43
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 71
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 172,
+        "reward_type": "NORMAL",
+        "last_stage": "5-10"
+      },
+      {
+        "uid": "534576",
+        "country": "kr",
+        "created_at": "2022-07-24 05:33:15",
+        "lv": 10,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 43
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 83
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 35,
+        "reward_type": "VVIP",
+        "last_stage": "4-8"
+      },
+      {
+        "uid": "174823",
+        "country": "kr",
+        "created_at": "2022-05-20 03:54:05",
+        "lv": 53,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 334
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 24
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 43
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 12,
+        "reward_type": "NORMAL",
+        "last_stage": "1-6"
+      },
+      {
+        "uid": "526642",
+        "country": "vn",
+        "created_at": "2022-06-26 07:35:31",
+        "lv": 3,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 26
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 187,
+        "reward_type": "VVIP",
+        "last_stage": "2-6"
+      },
+      {
+        "uid": "020187",
+        "country": "kr",
+        "created_at": "2022-02-08 08:57:08",
+        "lv": 5,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 69
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 386
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 28,
+        "reward_type": "VIP",
+        "last_stage": "6-4"
+      },
+      {
+        "uid": "498642",
+        "country": "cn",
+        "created_at": "2022-06-27 06:33:19",
+        "lv": 65,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 8
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 177
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 8
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 177
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 70,
+        "reward_type": "VIP",
+        "last_stage": "1-3"
+      },
+      {
+        "uid": "740300",
+        "country": "vn",
+        "created_at": "2022-03-07 09:34:39",
+        "lv": 40,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 371
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 173
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 7,
+        "reward_type": "VIP",
+        "last_stage": "8-4"
+      },
+      {
+        "uid": "313179",
+        "country": "kr",
+        "created_at": "2022-09-07 03:36:14",
+        "lv": 29,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 16
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 123
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 271
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 17,
+        "reward_type": "VVIP",
+        "last_stage": "6-7"
+      },
+      {
+        "uid": "981035",
+        "country": "us",
+        "created_at": "2022-08-27 11:19:26",
+        "lv": 29,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 151
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 276
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 151,
+        "reward_type": "VVIP",
+        "last_stage": "7-4"
+      },
+      {
+        "uid": "491679",
+        "country": "jp",
+        "created_at": "2022-02-08 09:21:37",
+        "lv": 28,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 51
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 23
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 15
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 18
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 136,
+        "reward_type": "NORMAL",
+        "last_stage": "9-3"
+      },
+      {
+        "uid": "138579",
+        "country": "kr",
+        "created_at": "2022-08-18 10:39:23",
+        "lv": 1,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 2
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 10
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 58
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 119,
+        "reward_type": "VVIP",
+        "last_stage": "3-10"
+      },
+      {
+        "uid": "747147",
+        "country": "kr",
+        "created_at": "2022-05-02 09:44:04",
+        "lv": 68,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 82
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 197,
+        "reward_type": "VVIP",
+        "last_stage": "5-8"
+      },
+      {
+        "uid": "469286",
+        "country": "kr",
+        "created_at": "2022-07-25 02:41:30",
+        "lv": 97,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 17
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 32
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 134
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 134
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 76,
+        "reward_type": "VIP",
+        "last_stage": "5-11"
+      },
+      {
+        "uid": "233290",
+        "country": "jp",
+        "created_at": "2022-02-13 09:13:29",
+        "lv": 42,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 93
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 18,
+        "reward_type": "VIP",
+        "last_stage": "9-11"
+      },
+      {
+        "uid": "554009",
+        "country": "kr",
+        "created_at": "2022-03-23 10:37:42",
+        "lv": 49,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 84
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 279
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 154
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 108,
+        "reward_type": "VIP",
+        "last_stage": "4-5"
+      },
+      {
+        "uid": "873754",
+        "country": "kr",
+        "created_at": "2022-10-15 06:07:15",
+        "lv": 76,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 53
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 168
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 222
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 91,
+        "reward_type": "VIP",
+        "last_stage": "11-5"
+      },
+      {
+        "uid": "895405",
+        "country": "kr",
+        "created_at": "2022-10-21 11:29:39",
+        "lv": 36,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 38
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 23
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 14,
+        "reward_type": "NORMAL",
+        "last_stage": "8-3"
+      },
+      {
+        "uid": "059772",
+        "country": "kr",
+        "created_at": "2022-05-11 11:43:38",
+        "lv": 67,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 39
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 100
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 13
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 39
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 68
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 39
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 115,
+        "reward_type": "NORMAL",
+        "last_stage": "10-5"
+      },
+      {
+        "uid": "875284",
+        "country": "kr",
+        "created_at": "2022-11-04 05:58:17",
+        "lv": 83,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 1
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 1
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 144
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 24
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 89,
+        "reward_type": "VVIP",
+        "last_stage": "6-7"
+      },
+      {
+        "uid": "189028",
+        "country": "kr",
+        "created_at": "2022-06-24 03:09:07",
+        "lv": 57,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 52
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 38
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 27
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 25,
+        "reward_type": "VVIP",
+        "last_stage": "7-7"
+      },
+      {
+        "uid": "167384",
+        "country": "kr",
+        "created_at": "2022-05-27 03:24:33",
+        "lv": 52,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 23
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 55
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 89
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 55
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 90,
+        "reward_type": "NORMAL",
+        "last_stage": "10-4"
+      },
+      {
+        "uid": "422139",
+        "country": "jp",
+        "created_at": "2022-08-10 06:48:07",
+        "lv": 82,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 151
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 19
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 19
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 68,
+        "reward_type": "NORMAL",
+        "last_stage": "8-9"
+      },
+      {
+        "uid": "801459",
+        "country": "kr",
+        "created_at": "2022-04-11 03:08:25",
+        "lv": 83,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 53
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 103
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 95
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 4
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 125,
+        "reward_type": "VVIP",
+        "last_stage": "2-1"
+      },
+      {
+        "uid": "994641",
+        "country": "kr",
+        "created_at": "2022-05-25 11:06:48",
+        "lv": 72,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 136
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 49
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 136
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 47
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 47
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 42,
+        "reward_type": "VVIP",
+        "last_stage": "7-1"
+      },
+      {
+        "uid": "552342",
+        "country": "kr",
+        "created_at": "2022-09-02 08:36:16",
+        "lv": 19,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 5
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 286
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 5
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 60,
+        "reward_type": "VVIP",
+        "last_stage": "10-2"
+      },
+      {
+        "uid": "301516",
+        "country": "kr",
+        "created_at": "2022-10-22 07:30:06",
+        "lv": 42,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 8
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 78
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 24,
+        "reward_type": "VIP",
+        "last_stage": "1-5"
+      },
+      {
+        "uid": "043120",
+        "country": "cn",
+        "created_at": "2022-02-24 08:38:46",
+        "lv": 90,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 53
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 98
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 181,
+        "reward_type": "VIP",
+        "last_stage": "1-3"
+      },
+      {
+        "uid": "616991",
+        "country": "kr",
+        "created_at": "2022-08-26 04:38:17",
+        "lv": 63,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 253
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 313
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 13
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 29,
+        "reward_type": "VIP",
+        "last_stage": "5-6"
+      },
+      {
+        "uid": "040606",
+        "country": "kr",
+        "created_at": "2022-07-09 02:17:08",
+        "lv": 87,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 47
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 428
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 31
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 31,
+        "reward_type": "VIP",
+        "last_stage": "7-9"
+      },
+      {
+        "uid": "210391",
+        "country": "us",
+        "created_at": "2022-09-28 05:15:22",
+        "lv": 50,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 99
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 167
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 3
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 3
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 177,
+        "reward_type": "VIP",
+        "last_stage": "1-2"
+      },
+      {
+        "uid": "356744",
+        "country": "kr",
+        "created_at": "2022-09-03 08:40:46",
+        "lv": 50,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 97
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 48
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 75
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 80,
+        "reward_type": "VIP",
+        "last_stage": "2-11"
+      },
+      {
+        "uid": "114752",
+        "country": "vn",
+        "created_at": "2022-09-23 04:01:24",
+        "lv": 34,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 82
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 9
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 89
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 82
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 194
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 118
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 116,
+        "reward_type": "VVIP",
+        "last_stage": "11-5"
+      },
+      {
+        "uid": "890760",
+        "country": "kr",
+        "created_at": "2022-01-24 02:31:46",
+        "lv": 11,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 24
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 76
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 243
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 5
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 175,
+        "reward_type": "VIP",
+        "last_stage": "3-5"
+      },
+      {
+        "uid": "544923",
+        "country": "kr",
+        "created_at": "2022-10-18 08:40:16",
+        "lv": 40,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 7
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 22
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 144,
+        "reward_type": "NORMAL",
+        "last_stage": "5-7"
+      },
+      {
+        "uid": "402132",
+        "country": "kr",
+        "created_at": "2022-05-17 07:59:38",
+        "lv": 33,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 97
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 236
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 60
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 9
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 194,
+        "reward_type": "VIP",
+        "last_stage": "10-9"
+      },
+      {
+        "uid": "156574",
+        "country": "kr",
+        "created_at": "2022-03-16 11:34:09",
+        "lv": 84,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 39
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 277
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 28
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 164
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 39
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 45,
+        "reward_type": "NORMAL",
+        "last_stage": "6-7"
+      },
+      {
+        "uid": "417853",
+        "country": "jp",
+        "created_at": "2022-11-10 08:22:02",
+        "lv": 81,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 8
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 6
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 77,
+        "reward_type": "VIP",
+        "last_stage": "11-4"
+      },
+      {
+        "uid": "761749",
+        "country": "vn",
+        "created_at": "2022-05-29 06:42:16",
+        "lv": 5,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 6
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 146
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 146
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 6
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 9
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 2
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 6
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 44,
+        "reward_type": "VVIP",
+        "last_stage": "4-1"
+      },
+      {
+        "uid": "281629",
+        "country": "kr",
+        "created_at": "2022-08-09 07:22:55",
+        "lv": 22,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 89
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 106,
+        "reward_type": "VVIP",
+        "last_stage": "9-3"
+      },
+      {
+        "uid": "919408",
+        "country": "kr",
+        "created_at": "2022-03-06 03:28:26",
+        "lv": 86,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 9
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 140
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 10
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 55,
+        "reward_type": "NORMAL",
+        "last_stage": "8-8"
+      },
+      {
+        "uid": "156345",
+        "country": "cn",
+        "created_at": "2022-06-11 10:32:18",
+        "lv": 29,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 22
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 145,
+        "reward_type": "VIP",
+        "last_stage": "10-8"
+      },
+      {
+        "uid": "508147",
+        "country": "kr",
+        "created_at": "2022-03-06 01:33:08",
+        "lv": 52,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 4
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 12
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 46
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 12
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 11,
+        "reward_type": "VVIP",
+        "last_stage": "11-6"
+      },
+      {
+        "uid": "480657",
+        "country": "kr",
+        "created_at": "2022-07-18 10:29:06",
+        "lv": 24,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 6
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 29
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 37
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 17
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 155,
+        "reward_type": "VVIP",
+        "last_stage": "4-1"
+      },
+      {
+        "uid": "564653",
+        "country": "kr",
+        "created_at": "2022-02-06 10:12:41",
+        "lv": 53,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 102
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 120,
+        "reward_type": "VIP",
+        "last_stage": "1-7"
+      },
+      {
+        "uid": "978616",
+        "country": "vn",
+        "created_at": "2022-06-24 06:17:56",
+        "lv": 35,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 373
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 8
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 373
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 12
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 19,
+        "reward_type": "VVIP",
+        "last_stage": "8-4"
+      },
+      {
+        "uid": "061644",
+        "country": "us",
+        "created_at": "2022-04-13 09:15:04",
+        "lv": 76,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 11
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 51,
+        "reward_type": "VIP",
+        "last_stage": "5-7"
+      },
+      {
+        "uid": "977871",
+        "country": "kr",
+        "created_at": "2022-01-22 02:06:04",
+        "lv": 12,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 12
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 91
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 91
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 91
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 189,
+        "reward_type": "NORMAL",
+        "last_stage": "4-7"
+      },
+      {
+        "uid": "577605",
+        "country": "kr",
+        "created_at": "2022-11-06 09:53:49",
+        "lv": 97,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 151
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 1,
+        "reward_type": "NORMAL",
+        "last_stage": "5-3"
+      },
+      {
+        "uid": "593993",
+        "country": "kr",
+        "created_at": "2022-05-22 05:23:34",
+        "lv": 72,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 34
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 15
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 168,
+        "reward_type": "VIP",
+        "last_stage": "11-1"
+      },
+      {
+        "uid": "301949",
+        "country": "cn",
+        "created_at": "2022-07-22 10:28:08",
+        "lv": 33,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 107
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 63
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 5
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 63
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 107
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 3
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 143,
+        "reward_type": "VVIP",
+        "last_stage": "11-3"
+      },
+      {
+        "uid": "121159",
+        "country": "kr",
+        "created_at": "2022-06-18 01:33:49",
+        "lv": 47,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 39
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 143
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 39
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 39
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 102
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 50
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 195,
+        "reward_type": "NORMAL",
+        "last_stage": "8-5"
+      },
+      {
+        "uid": "650639",
+        "country": "kr",
+        "created_at": "2022-01-14 04:18:22",
+        "lv": 37,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 189
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 29
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 49,
+        "reward_type": "VVIP",
+        "last_stage": "5-7"
+      },
+      {
+        "uid": "591025",
+        "country": "us",
+        "created_at": "2022-01-24 09:48:52",
+        "lv": 91,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 127
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 9
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 3
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 15
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 4,
+        "reward_type": "VIP",
+        "last_stage": "6-2"
+      },
+      {
+        "uid": "596456",
+        "country": "kr",
+        "created_at": "2022-04-09 02:40:27",
+        "lv": 97,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 195
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 3
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 119
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 22
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 119
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 15,
+        "reward_type": "VIP",
+        "last_stage": "11-7"
+      },
+      {
+        "uid": "063124",
+        "country": "kr",
+        "created_at": "2022-01-23 03:34:57",
+        "lv": 50,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 146
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 141,
+        "reward_type": "VIP",
+        "last_stage": "10-11"
+      },
+      {
+        "uid": "484537",
+        "country": "kr",
+        "created_at": "2022-10-09 02:12:52",
+        "lv": 63,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 31
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 11
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 130
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 13
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 79,
+        "reward_type": "VIP",
+        "last_stage": "8-6"
+      },
+      {
+        "uid": "116073",
+        "country": "jp",
+        "created_at": "2022-01-20 07:30:07",
+        "lv": 76,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 85
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 129
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 21
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 33
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 117
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 118,
+        "reward_type": "VIP",
+        "last_stage": "1-5"
+      },
+      {
+        "uid": "931345",
+        "country": "kr",
+        "created_at": "2022-06-15 09:03:38",
+        "lv": 63,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 14
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 14
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 38
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 107,
+        "reward_type": "VIP",
+        "last_stage": "6-11"
+      },
+      {
+        "uid": "384546",
+        "country": "cn",
+        "created_at": "2022-09-25 06:15:30",
+        "lv": 55,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 44
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 101,
+        "reward_type": "VVIP",
+        "last_stage": "8-6"
+      },
+      {
+        "uid": "776322",
+        "country": "kr",
+        "created_at": "2022-08-16 03:25:25",
+        "lv": 47,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 69
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 34
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 127,
+        "reward_type": "VVIP",
+        "last_stage": "2-3"
+      },
+      {
+        "uid": "245073",
+        "country": "kr",
+        "created_at": "2022-03-19 07:55:17",
+        "lv": 69,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 38
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 38
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 45
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 14
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 121,
+        "reward_type": "VIP",
+        "last_stage": "5-4"
+      },
+      {
+        "uid": "372892",
+        "country": "kr",
+        "created_at": "2022-10-18 11:02:02",
+        "lv": 25,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 167
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 124
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 174,
+        "reward_type": "VIP",
+        "last_stage": "1-6"
+      },
+      {
+        "uid": "068327",
+        "country": "jp",
+        "created_at": "2022-08-12 10:37:58",
+        "lv": 3,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 18
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 24
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 150,
+        "reward_type": "NORMAL",
+        "last_stage": "9-10"
+      },
+      {
+        "uid": "394525",
+        "country": "kr",
+        "created_at": "2022-01-25 01:35:06",
+        "lv": 42,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 117
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 48
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 117
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 170
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 201
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 46,
+        "reward_type": "NORMAL",
+        "last_stage": "11-10"
+      },
+      {
+        "uid": "896380",
+        "country": "cn",
+        "created_at": "2022-08-05 01:29:04",
+        "lv": 6,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 36
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 374
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 374
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 24
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 153,
+        "reward_type": "VIP",
+        "last_stage": "7-6"
+      },
+      {
+        "uid": "899465",
+        "country": "kr",
+        "created_at": "2022-11-03 03:18:47",
+        "lv": 64,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 3
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 14
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 102,
+        "reward_type": "VIP",
+        "last_stage": "7-3"
+      },
+      {
+        "uid": "004809",
+        "country": "vn",
+        "created_at": "2022-11-16 10:17:29",
+        "lv": 65,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 11
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 67
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 206
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 112,
+        "reward_type": "NORMAL",
+        "last_stage": "3-11"
+      },
+      {
+        "uid": "284959",
+        "country": "kr",
+        "created_at": "2022-05-12 02:43:25",
+        "lv": 20,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 185
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 134,
+        "reward_type": "NORMAL",
+        "last_stage": "9-1"
+      },
+      {
+        "uid": "287936",
+        "country": "kr",
+        "created_at": "2022-01-10 10:20:24",
+        "lv": 1,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 5
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 64,
+        "reward_type": "NORMAL",
+        "last_stage": "5-8"
+      },
+      {
+        "uid": "586879",
+        "country": "kr",
+        "created_at": "2022-07-14 01:19:55",
+        "lv": 17,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 65
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 51
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 10
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 65
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 23,
+        "reward_type": "VVIP",
+        "last_stage": "5-2"
+      },
+      {
+        "uid": "426386",
+        "country": "vn",
+        "created_at": "2022-08-03 01:09:03",
+        "lv": 21,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 6
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 79
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 105
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 170
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 100
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 100,
+        "reward_type": "VVIP",
+        "last_stage": "6-11"
+      },
+      {
+        "uid": "820116",
+        "country": "kr",
+        "created_at": "2022-03-27 09:13:03",
+        "lv": 6,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 79
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 9
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 23
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 124,
+        "reward_type": "NORMAL",
+        "last_stage": "8-5"
+      },
+      {
+        "uid": "687058",
+        "country": "cn",
+        "created_at": "2022-09-19 03:03:41",
+        "lv": 55,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 76
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 190,
+        "reward_type": "NORMAL",
+        "last_stage": "9-7"
+      },
+      {
+        "uid": "973456",
+        "country": "kr",
+        "created_at": "2022-07-02 07:32:48",
+        "lv": 72,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 44
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 65
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 44
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 13
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 32,
+        "reward_type": "VVIP",
+        "last_stage": "3-2"
+      },
+      {
+        "uid": "095491",
+        "country": "kr",
+        "created_at": "2022-03-17 05:13:43",
+        "lv": 30,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 191
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 274
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 8
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 42
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 276
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 133
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 149,
+        "reward_type": "VVIP",
+        "last_stage": "9-2"
+      },
+      {
+        "uid": "880445",
+        "country": "kr",
+        "created_at": "2022-03-02 09:01:55",
+        "lv": 69,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 29
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 21,
+        "reward_type": "NORMAL",
+        "last_stage": "9-9"
+      },
+      {
+        "uid": "855936",
+        "country": "us",
+        "created_at": "2022-07-16 05:39:18",
+        "lv": 98,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 238
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 62,
+        "reward_type": "VIP",
+        "last_stage": "3-1"
+      },
+      {
+        "uid": "095557",
+        "country": "us",
+        "created_at": "2022-07-10 03:44:56",
+        "lv": 56,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 11
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 11
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 178
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 22
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 131,
+        "reward_type": "VVIP",
+        "last_stage": "5-7"
+      },
+      {
+        "uid": "986638",
+        "country": "kr",
+        "created_at": "2022-04-01 01:31:38",
+        "lv": 14,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 150
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 7
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 29
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 150
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 129
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 8,
+        "reward_type": "VVIP",
+        "last_stage": "6-11"
+      },
+      {
+        "uid": "711135",
+        "country": "kr",
+        "created_at": "2022-05-20 09:29:39",
+        "lv": 92,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 68
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 55
+          }
+        ],
+        "block_type": true,
+        "pvp_rank": 33,
+        "reward_type": "VVIP",
+        "last_stage": "6-11"
+      },
+      {
+        "uid": "956291",
+        "country": "jp",
+        "created_at": "2022-09-23 03:26:49",
+        "lv": 89,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 426
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 14
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 158,
+        "reward_type": "VVIP",
+        "last_stage": "6-4"
+      },
+      {
+        "uid": "707060",
+        "country": "kr",
+        "created_at": "2022-08-15 08:52:28",
+        "lv": 23,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 38
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 38
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 80
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 83
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 10
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 103,
+        "reward_type": "VVIP",
+        "last_stage": "8-7"
+      },
+      {
+        "uid": "940113",
+        "country": "kr",
+        "created_at": "2022-10-20 07:02:12",
+        "lv": 59,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 60
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 105,
+        "reward_type": "NORMAL",
+        "last_stage": "7-11"
+      },
+      {
+        "uid": "972900",
+        "country": "jp",
+        "created_at": "2022-05-05 02:24:03",
+        "lv": 27,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 136
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 4
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 192,
+        "reward_type": "NORMAL",
+        "last_stage": "1-8"
+      },
+      {
+        "uid": "711715",
+        "country": "kr",
+        "created_at": "2022-11-21 09:08:30",
+        "lv": 57,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 91
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 27
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 31
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 40,
+        "reward_type": "VVIP",
+        "last_stage": "6-9"
+      },
+      {
+        "uid": "310850",
+        "country": "kr",
+        "created_at": "2022-09-28 03:49:24",
+        "lv": 58,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 13
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 125
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 125
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 446
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 94,
+        "reward_type": "NORMAL",
+        "last_stage": "6-4"
+      },
+      {
+        "uid": "833517",
+        "country": "kr",
+        "created_at": "2022-06-26 10:16:54",
+        "lv": 66,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 267
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 119
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 9,
+        "reward_type": "VIP",
+        "last_stage": "11-5"
+      },
+      {
+        "uid": "122962",
+        "country": "kr",
+        "created_at": "2022-09-27 03:26:14",
+        "lv": 5,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 1
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 216
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 162
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 38
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 1
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 15
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 15
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 173,
+        "reward_type": "VVIP",
+        "last_stage": "1-2"
+      },
+      {
+        "uid": "665693",
+        "country": "kr",
+        "created_at": "2022-07-24 04:57:39",
+        "lv": 82,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 8
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 241
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 88,
+        "reward_type": "NORMAL",
+        "last_stage": "9-9"
+      },
+      {
+        "uid": "834686",
+        "country": "kr",
+        "created_at": "2022-02-12 04:20:44",
+        "lv": 28,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 13
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 37
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 45
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 146,
+        "reward_type": "NORMAL",
+        "last_stage": "1-4"
+      },
+      {
+        "uid": "651696",
+        "country": "jp",
+        "created_at": "2022-07-29 03:37:47",
+        "lv": 87,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 65
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 69
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 65
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 262
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 34,
+        "reward_type": "VIP",
+        "last_stage": "6-2"
+      },
+      {
+        "uid": "369651",
+        "country": "vn",
+        "created_at": "2022-07-01 05:29:28",
+        "lv": 13,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 174
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 11
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 169,
+        "reward_type": "NORMAL",
+        "last_stage": "2-6"
+      },
+      {
+        "uid": "327787",
+        "country": "kr",
+        "created_at": "2022-07-01 10:55:08",
+        "lv": 89,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 198
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 6,
+        "reward_type": "NORMAL",
+        "last_stage": "1-9"
+      },
+      {
+        "uid": "396480",
+        "country": "us",
+        "created_at": "2022-06-11 10:52:16",
+        "lv": 16,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 60
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 23
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 60
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 23
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 38,
+        "reward_type": "NORMAL",
+        "last_stage": "1-7"
+      },
+      {
+        "uid": "060274",
+        "country": "jp",
+        "created_at": "2022-09-13 02:44:11",
+        "lv": 71,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 9
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 22
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 3
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 179,
+        "reward_type": "VVIP",
+        "last_stage": "9-9"
+      },
+      {
+        "uid": "954449",
+        "country": "jp",
+        "created_at": "2022-04-20 03:47:31",
+        "lv": 56,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 172
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 57,
+        "reward_type": "NORMAL",
+        "last_stage": "3-8"
+      },
+      {
+        "uid": "090028",
+        "country": "vn",
+        "created_at": "2022-09-03 02:45:42",
+        "lv": 82,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 278
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 232
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 16
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 139
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 130,
+        "reward_type": "VIP",
+        "last_stage": "8-11"
+      },
+      {
+        "uid": "853075",
+        "country": "kr",
+        "created_at": "2022-10-06 05:54:08",
+        "lv": 75,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 49
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 19
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 7
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 84
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 37,
+        "reward_type": "NORMAL",
+        "last_stage": "1-6"
+      },
+      {
+        "uid": "894410",
+        "country": "vn",
+        "created_at": "2022-04-10 03:13:31",
+        "lv": 26,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 13
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 236
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 6
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 196,
+        "reward_type": "VIP",
+        "last_stage": "9-3"
+      },
+      {
+        "uid": "566095",
+        "country": "kr",
+        "created_at": "2022-03-13 11:53:21",
+        "lv": 3,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 4
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 30
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 4
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 82,
+        "reward_type": "VIP",
+        "last_stage": "1-5"
+      },
+      {
+        "uid": "075560",
+        "country": "kr",
+        "created_at": "2022-05-25 07:02:39",
+        "lv": 91,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 10
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 85,
+        "reward_type": "VVIP",
+        "last_stage": "11-4"
+      },
+      {
+        "uid": "070242",
+        "country": "jp",
+        "created_at": "2022-03-18 07:14:15",
+        "lv": 62,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 37
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 37
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 75,
+        "reward_type": "VIP",
+        "last_stage": "10-9"
+      },
+      {
+        "uid": "963384",
+        "country": "kr",
+        "created_at": "2022-01-10 09:17:15",
+        "lv": 27,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 23
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 288
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 288
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 84,
+        "reward_type": "VVIP",
+        "last_stage": "7-5"
+      },
+      {
+        "uid": "320295",
+        "country": "kr",
+        "created_at": "2022-04-27 04:28:21",
+        "lv": 82,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 80
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 26
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 318
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 138,
+        "reward_type": "NORMAL",
+        "last_stage": "8-8"
+      },
+      {
+        "uid": "772523",
+        "country": "kr",
+        "created_at": "2022-03-16 05:03:17",
+        "lv": 8,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 43
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 162,
+        "reward_type": "VIP",
+        "last_stage": "10-4"
+      },
+      {
+        "uid": "937993",
+        "country": "kr",
+        "created_at": "2022-03-29 07:37:19",
+        "lv": 53,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 5
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 25
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 142
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 5
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 83,
+        "reward_type": "VVIP",
+        "last_stage": "1-9"
+      },
+      {
+        "uid": "275320",
+        "country": "kr",
+        "created_at": "2022-09-07 10:10:42",
+        "lv": 70,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 150
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 183,
+        "reward_type": "VVIP",
+        "last_stage": "4-10"
+      },
+      {
+        "uid": "867047",
+        "country": "kr",
+        "created_at": "2022-01-26 07:12:56",
+        "lv": 83,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 135
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 346
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 9
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 67,
+        "reward_type": "NORMAL",
+        "last_stage": "9-6"
+      },
+      {
+        "uid": "660751",
+        "country": "jp",
+        "created_at": "2022-05-15 04:20:49",
+        "lv": 92,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 5
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 201
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 36
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 5
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 69,
+        "reward_type": "VIP",
+        "last_stage": "5-2"
+      },
+      {
+        "uid": "777154",
+        "country": "cn",
+        "created_at": "2022-06-21 02:50:05",
+        "lv": 68,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 135
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 352
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 98,
+        "reward_type": "NORMAL",
+        "last_stage": "2-5"
+      },
+      {
+        "uid": "416803",
+        "country": "us",
+        "created_at": "2022-07-09 11:46:56",
+        "lv": 12,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 9
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 72
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 72
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 59
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 41
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 81,
+        "reward_type": "NORMAL",
+        "last_stage": "11-2"
+      },
+      {
+        "uid": "074118",
+        "country": "kr",
+        "created_at": "2022-09-24 04:22:41",
+        "lv": 55,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 175
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 117,
+        "reward_type": "VIP",
+        "last_stage": "2-2"
+      },
+      {
+        "uid": "036972",
+        "country": "kr",
+        "created_at": "2022-06-28 04:26:43",
+        "lv": 85,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 34
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 6
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 140
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 163,
+        "reward_type": "NORMAL",
+        "last_stage": "8-3"
+      },
+      {
+        "uid": "884110",
+        "country": "cn",
+        "created_at": "2022-02-05 02:49:43",
+        "lv": 19,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 12
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 87
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 166,
+        "reward_type": "NORMAL",
+        "last_stage": "3-8"
+      },
+      {
+        "uid": "760176",
+        "country": "kr",
+        "created_at": "2022-07-26 08:09:02",
+        "lv": 3,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 4
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 188,
+        "reward_type": "NORMAL",
+        "last_stage": "7-1"
+      },
+      {
+        "uid": "094529",
+        "country": "kr",
+        "created_at": "2022-03-18 09:43:05",
+        "lv": 18,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 41
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 38
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 54
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 11
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 7
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 61,
+        "reward_type": "NORMAL",
+        "last_stage": "9-11"
+      },
+      {
+        "uid": "580668",
+        "country": "jp",
+        "created_at": "2022-07-29 08:41:21",
+        "lv": 2,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 144
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 42
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 10,
+        "reward_type": "NORMAL",
+        "last_stage": "3-7"
+      },
+      {
+        "uid": "565140",
+        "country": "vn",
+        "created_at": "2022-06-17 03:38:03",
+        "lv": 32,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 53
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 171,
+        "reward_type": "VVIP",
+        "last_stage": "11-7"
+      },
+      {
+        "uid": "990438",
+        "country": "us",
+        "created_at": "2022-10-02 06:33:38",
+        "lv": 19,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 253
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 206
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 212
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 38
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 133,
+        "reward_type": "NORMAL",
+        "last_stage": "8-6"
+      },
+      {
+        "uid": "760074",
+        "country": "vn",
+        "created_at": "2022-10-18 05:42:07",
+        "lv": 30,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 77
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 26
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 19
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 72,
+        "reward_type": "VVIP",
+        "last_stage": "3-2"
+      },
+      {
+        "uid": "342009",
+        "country": "us",
+        "created_at": "2022-03-23 08:28:33",
+        "lv": 98,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 77
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 203
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 114
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 16,
+        "reward_type": "NORMAL",
+        "last_stage": "9-2"
+      },
+      {
+        "uid": "358158",
+        "country": "kr",
+        "created_at": "2022-07-22 05:08:21",
+        "lv": 55,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 2
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 17
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 71,
+        "reward_type": "VVIP",
+        "last_stage": "5-7"
+      },
+      {
+        "uid": "241909",
+        "country": "kr",
+        "created_at": "2022-01-18 03:27:56",
+        "lv": 4,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 40
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 16
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 139,
+        "reward_type": "VVIP",
+        "last_stage": "1-3"
+      },
+      {
+        "uid": "094901",
+        "country": "kr",
+        "created_at": "2022-04-23 10:09:41",
+        "lv": 19,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 10
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 10
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 188
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 177
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 177
+          }
+        ],
+        "block_type": true,
+        "pvp_rank": 176,
+        "reward_type": "NORMAL",
+        "last_stage": "1-10"
+      },
+      {
+        "uid": "589220",
+        "country": "kr",
+        "created_at": "2022-09-21 05:03:26",
+        "lv": 82,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 14
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 66,
+        "reward_type": "VIP",
+        "last_stage": "2-7"
+      },
+      {
+        "uid": "756500",
+        "country": "jp",
+        "created_at": "2022-08-21 02:02:29",
+        "lv": 71,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 64
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 136
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 104,
+        "reward_type": "VVIP",
+        "last_stage": "1-11"
+      },
+      {
+        "uid": "203958",
+        "country": "cn",
+        "created_at": "2022-04-19 07:16:53",
+        "lv": 69,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 130
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 52
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 37
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 193,
+        "reward_type": "VIP",
+        "last_stage": "6-3"
+      },
+      {
+        "uid": "725134",
+        "country": "cn",
+        "created_at": "2022-06-22 01:06:36",
+        "lv": 38,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 48
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 209
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 94
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 114,
+        "reward_type": "VVIP",
+        "last_stage": "9-10"
+      },
+      {
+        "uid": "150267",
+        "country": "kr",
+        "created_at": "2022-03-05 01:25:29",
+        "lv": 18,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 28
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 2
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 7
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 128
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 0,
+        "reward_type": "VVIP",
+        "last_stage": "3-2"
+      },
+      {
+        "uid": "387674",
+        "country": "us",
+        "created_at": "2022-07-13 01:07:59",
+        "lv": 84,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 23
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 23
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 17
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 48,
+        "reward_type": "VVIP",
+        "last_stage": "11-7"
+      },
+      {
+        "uid": "940932",
+        "country": "kr",
+        "created_at": "2022-05-14 07:51:36",
+        "lv": 71,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 46
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 16
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 27
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 16
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 180,
+        "reward_type": "NORMAL",
+        "last_stage": "5-3"
+      },
+      {
+        "uid": "781556",
+        "country": "kr",
+        "created_at": "2022-04-06 02:58:09",
+        "lv": 6,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 301
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 301
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 157,
+        "reward_type": "VVIP",
+        "last_stage": "4-1"
+      },
+      {
+        "uid": "719861",
+        "country": "kr",
+        "created_at": "2022-08-06 11:03:45",
+        "lv": 70,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 19
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 30,
+        "reward_type": "NORMAL",
+        "last_stage": "8-9"
+      },
+      {
+        "uid": "084852",
+        "country": "kr",
+        "created_at": "2022-05-24 10:24:56",
+        "lv": 92,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 46
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 88
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 88
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 47,
+        "reward_type": "VVIP",
+        "last_stage": "4-11"
+      },
+      {
+        "uid": "792624",
+        "country": "kr",
+        "created_at": "2022-07-28 01:54:29",
+        "lv": 93,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 5
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 130
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 5
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 38
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 148,
+        "reward_type": "VIP",
+        "last_stage": "11-4"
+      },
+      {
+        "uid": "290462",
+        "country": "kr",
+        "created_at": "2022-10-27 11:13:45",
+        "lv": 74,
+        "items": [
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 2
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 38
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 2
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 39
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 32
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 95,
+        "reward_type": "VIP",
+        "last_stage": "3-1"
+      },
+      {
+        "uid": "414277",
+        "country": "vn",
+        "created_at": "2022-05-25 03:01:38",
+        "lv": 20,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 103
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 280
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 280
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 280
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 111,
+        "reward_type": "NORMAL",
+        "last_stage": "6-7"
+      },
+      {
+        "uid": "048425",
+        "country": "cn",
+        "created_at": "2022-09-05 07:03:53",
+        "lv": 62,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 33
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 10
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 73,
+        "reward_type": "VIP",
+        "last_stage": "5-11"
+      },
+      {
+        "uid": "337083",
+        "country": "kr",
+        "created_at": "2022-09-12 02:34:04",
+        "lv": 13,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 146
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 137,
+        "reward_type": "VIP",
+        "last_stage": "5-8"
+      },
+      {
+        "uid": "611766",
+        "country": "kr",
+        "created_at": "2022-10-26 08:50:06",
+        "lv": 23,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 27
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 27
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 40
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 39,
+        "reward_type": "VIP",
+        "last_stage": "2-11"
+      },
+      {
+        "uid": "962497",
+        "country": "jp",
+        "created_at": "2022-05-21 05:38:11",
+        "lv": 66,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 130
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 54
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 167,
+        "reward_type": "VIP",
+        "last_stage": "4-11"
+      },
+      {
+        "uid": "831153",
+        "country": "jp",
+        "created_at": "2022-06-12 03:02:29",
+        "lv": 92,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 164
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 53
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 68
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 58,
+        "reward_type": "NORMAL",
+        "last_stage": "2-4"
+      },
+      {
+        "uid": "939890",
+        "country": "kr",
+        "created_at": "2022-03-21 04:40:41",
+        "lv": 80,
+        "items": [
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 201
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 201
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 185,
+        "reward_type": "NORMAL",
+        "last_stage": "8-11"
+      },
+      {
+        "uid": "370882",
+        "country": "kr",
+        "created_at": "2022-06-29 05:01:34",
+        "lv": 23,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 42
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 7
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 16
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 12
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 161,
+        "reward_type": "VVIP",
+        "last_stage": "5-9"
+      },
+      {
+        "uid": "275841",
+        "country": "jp",
+        "created_at": "2022-11-13 07:07:11",
+        "lv": 35,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 185
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 185
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 185
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 159,
+        "reward_type": "NORMAL",
+        "last_stage": "6-8"
+      },
+      {
+        "uid": "884969",
+        "country": "kr",
+        "created_at": "2022-03-16 01:55:31",
+        "lv": 81,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 75
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 4
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 124
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 75
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 5,
+        "reward_type": "VVIP",
+        "last_stage": "7-7"
+      },
+      {
+        "uid": "963387",
+        "country": "cn",
+        "created_at": "2022-07-09 05:08:33",
+        "lv": 53,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 193
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 35
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 78,
+        "reward_type": "NORMAL",
+        "last_stage": "8-3"
+      },
+      {
+        "uid": "816787",
+        "country": "cn",
+        "created_at": "2022-07-05 03:18:02",
+        "lv": 98,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 90
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 22,
+        "reward_type": "VIP",
+        "last_stage": "9-8"
+      },
+      {
+        "uid": "124927",
+        "country": "kr",
+        "created_at": "2022-10-11 04:58:49",
+        "lv": 20,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 63
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 9
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 9
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 301
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 63,
+        "reward_type": "VVIP",
+        "last_stage": "11-9"
+      },
+      {
+        "uid": "778075",
+        "country": "us",
+        "created_at": "2022-07-27 11:32:32",
+        "lv": 40,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 176
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 126,
+        "reward_type": "VIP",
+        "last_stage": "5-5"
+      },
+      {
+        "uid": "565078",
+        "country": "jp",
+        "created_at": "2022-10-08 09:48:39",
+        "lv": 62,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 54
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 33
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 195
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 170,
+        "reward_type": "NORMAL",
+        "last_stage": "11-10"
+      },
+      {
+        "uid": "504134",
+        "country": "kr",
+        "created_at": "2022-08-17 02:57:41",
+        "lv": 66,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 5
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 5
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 5
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 36,
+        "reward_type": "VVIP",
+        "last_stage": "11-7"
+      },
+      {
+        "uid": "447092",
+        "country": "jp",
+        "created_at": "2022-03-11 09:39:33",
+        "lv": 27,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 92
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 96,
+        "reward_type": "VVIP",
+        "last_stage": "8-9"
+      },
+      {
+        "uid": "110829",
+        "country": "kr",
+        "created_at": "2022-10-02 07:47:04",
+        "lv": 5,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 14
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 48
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 48
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 74,
+        "reward_type": "VVIP",
+        "last_stage": "1-2"
+      },
+      {
+        "uid": "087959",
+        "country": "kr",
+        "created_at": "2022-10-04 11:10:58",
+        "lv": 58,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 40
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 40
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 10
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 52,
+        "reward_type": "NORMAL",
+        "last_stage": "11-7"
+      },
+      {
+        "uid": "929923",
+        "country": "kr",
+        "created_at": "2022-06-14 07:14:40",
+        "lv": 10,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 98
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 2
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 5
+          },
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 2
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 98
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 147,
+        "reward_type": "NORMAL",
+        "last_stage": "3-10"
+      },
+      {
+        "uid": "288030",
+        "country": "jp",
+        "created_at": "2022-04-06 10:09:45",
+        "lv": 57,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 66
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 65,
+        "reward_type": "VIP",
+        "last_stage": "11-8"
+      },
+      {
+        "uid": "848711",
+        "country": "kr",
+        "created_at": "2022-02-07 11:10:35",
+        "lv": 37,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 38
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 75
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 75
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 96
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 203
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 99,
+        "reward_type": "VIP",
+        "last_stage": "1-8"
+      },
+      {
+        "uid": "818314",
+        "country": "vn",
+        "created_at": "2022-08-25 01:13:46",
+        "lv": 4,
+        "items": [
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 66
+          },
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 44
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 82
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 82
+          },
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 9
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 123
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 43,
+        "reward_type": "VVIP",
+        "last_stage": "6-7"
+      },
+      {
+        "uid": "395086",
+        "country": "kr",
+        "created_at": "2022-04-24 09:03:41",
+        "lv": 46,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 162
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 371
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 140,
+        "reward_type": "VIP",
+        "last_stage": "4-6"
+      },
+      {
+        "uid": "501153",
+        "country": "kr",
+        "created_at": "2022-07-07 08:04:34",
+        "lv": 42,
+        "items": [
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 28
+          },
+          {
+            "itemId": 5,
+            "name": "stick",
+            "defence": 1
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 20,
+        "reward_type": "VIP",
+        "last_stage": "7-10"
+      },
+      {
+        "uid": "732782",
+        "country": "us",
+        "created_at": "2022-03-12 06:27:16",
+        "lv": 7,
+        "items": [
+          {
+            "itemId": 2,
+            "name": "shield",
+            "defence": 37
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 232
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 154,
+        "reward_type": "NORMAL",
+        "last_stage": "7-9"
+      },
+      {
+        "uid": "837497",
+        "country": "kr",
+        "created_at": "2022-06-04 09:35:58",
+        "lv": 46,
+        "items": [
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 48
+          },
+          {
+            "itemId": 9,
+            "name": "knife",
+            "attack": 75
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 128,
+        "reward_type": "NORMAL",
+        "last_stage": "6-6"
+      },
+      {
+        "uid": "641655",
+        "country": "kr",
+        "created_at": "2022-03-26 05:35:38",
+        "lv": 6,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 4
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 98
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 113,
+        "reward_type": "VVIP",
+        "last_stage": "6-6"
+      },
+      {
+        "uid": "424961",
+        "country": "kr",
+        "created_at": "2022-06-06 03:37:31",
+        "lv": 38,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 225
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 296
+          },
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 138
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 2,
+        "reward_type": "NORMAL",
+        "last_stage": "11-3"
+      },
+      {
+        "uid": "411973",
+        "country": "kr",
+        "created_at": "2022-07-23 01:38:58",
+        "lv": 95,
+        "items": [
+          {
+            "itemId": 7,
+            "name": "staff",
+            "magic": 269
+          },
+          {
+            "itemId": 10,
+            "name": "dagger",
+            "attack": 335
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 3,
+        "reward_type": "NORMAL",
+        "last_stage": "9-7"
+      },
+      {
+        "uid": "287040",
+        "country": "kr",
+        "created_at": "2022-05-13 02:13:53",
+        "lv": 68,
+        "items": [
+          {
+            "itemId": 8,
+            "name": "wand",
+            "magic": 150
+          },
+          {
+            "itemId": 4,
+            "name": "shoes",
+            "defence": 19
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 184,
+        "reward_type": "NORMAL",
+        "last_stage": "9-6"
+      },
+      {
+        "uid": "450722",
+        "country": "kr",
+        "created_at": "2022-10-21 08:47:26",
+        "lv": 89,
+        "items": [
+          {
+            "itemId": 6,
+            "name": "screw",
+            "attack": 11
+          },
+          {
+            "itemId": 3,
+            "name": "armor",
+            "defence": 99
+          }
+        ],
+        "block_type": false,
+        "pvp_rank": 186,
+        "reward_type": "NORMAL",
+        "last_stage": "9-11"
+      }
+    ]
+  }
+}
