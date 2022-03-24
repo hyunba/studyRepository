@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
-import uData from './dummy_data_for_test1.json';
+import uData from './dummy_data_for_test.json';
 import DataTable from 'react-data-table-component';
-import ApexCharts from 'react-apexcharts';
-import type { UserInterface } from './components/types';
-import { Container, Header, Title, Section, UserLists, Users } from './components/styled';
+import type { UserInterface } from '../components/types';
+import { Container, Header, Title } from '../components/styled';
 
-function App() {
+export default function App() {
   const [userData, setUserData] = useState<UserInterface[]>([]);
   useEffect(() => {
     setUserData(uData);
@@ -13,7 +12,7 @@ function App() {
    
   const columns = [
   {
-    name: "key",
+    name: "user_name",
     selector: (row: { uid: string; }) => row.uid,
     sortable: true
   },
@@ -23,7 +22,7 @@ function App() {
     sortable: true
   },
   {
-    name: "Runtime (m)",
+    name: "created",
     selector:(row: { created_at: string; }) => row.created_at,
     sortable: true,
     right: true
@@ -33,12 +32,8 @@ function App() {
   return (
     <Container>
       <Header>
-        <Title>userList</Title>
+        <Title>User DataTable</Title>
       </Header>
-      <Section>
-        <h2>그래프</h2>
-        <ApexCharts type="bar" series={[{name: "hi", data:[1,2,3,4,5]}, {name: "hsa", data:[3,6,7,4,5]},]} options={{chart: {width:500, height: 500,}}}/>
-      </Section>
       <DataTable
         title="userList"
         data={userData}
@@ -46,15 +41,6 @@ function App() {
         pagination
         selectableRows
       />
-      <UserLists>
-        {userData.map((name) => (
-          <Users key={name.uid}>
-            {name.created_at}
-          </Users>
-        ))}
-      </UserLists>
     </Container>
   );
 }
-
-export default App;
