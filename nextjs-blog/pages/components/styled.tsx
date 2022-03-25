@@ -6,6 +6,12 @@ export const Container = styled.div`
   margin: 0 auto;
 `;
 
+export const ChartContainer = styled.div`
+  padding: 0px 20px;
+  max-width: 960px;
+  margin: 0 auto;
+`;
+
 export const Header = styled.header`
   height: 10vh;
   display: flex;

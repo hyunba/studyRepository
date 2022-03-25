@@ -6,20 +6,16 @@ export default function Layout({ children }) {
 
   const menuItems = [
     {
-      href: '/posts/second-post',
+      href: '/posts/user_data',
       title: 'User Data',
     },
     {
-      href: '/posts/fourth-post',
-      title: 'Vip 회원 명단',
+      href: '/posts/user_region',
+      title: 'Regional User',
     },
     {
-        href: '/posts/third-post',
-        title: 'graph',
-    },
-    {
-        href: '/posts/fifth-post',
-        title: 'graph',
+      href: '/posts/user_vip',
+      title: 'User Vip',
     },
   ];
 

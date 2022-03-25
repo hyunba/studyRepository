@@ -12,7 +12,7 @@ export default function App() {
 
     return(
         <Container>
-            <Title>VIP 회원 명단</Title>
+            <Title>User VIP</Title>
         <UserLists>
         {userData.map(name => {
             if(name.reward_type !== "NORMAL")
