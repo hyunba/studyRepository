@@ -10,7 +10,6 @@ export default function App() {
     useEffect(() => {
       setUserData(uData);
     }, []);
-    // const region = userData?.map(e=> e.country === "us") ? setUserRegion(prev => prev + 1) : setUserRegion2(prev => prev + 1);
 
     return(
         <ChartContainer>

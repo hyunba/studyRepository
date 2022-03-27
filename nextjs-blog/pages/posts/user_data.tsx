@@ -18,12 +18,12 @@ export default function App() {
   },
   {
     name: "lv",
-    selector:(row: { lv: number; }) => row.lv,
+    // selector:(row: { lv: number; }) => row.lv,
     sortable: true
   },
   {
     name: "created",
-    selector:(row: { created_at: string; }) => row.created_at,
+    // selector:(row: { created_at: string; }) => row.created_at,
     sortable: true,
     right: true
   }
