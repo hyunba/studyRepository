@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {AnimatePresence, motion} from "framer-motion"
 import { useState } from "react";
-// AnimatePresence는 Animate를 Exit 해준다.
+// AnimatePresence는 Animate를 Exit 해준다. (initial, animate, exit)
 
 const Wrapper = styled(motion.div)`
   height: 100vh;
@@ -32,8 +32,11 @@ const Box = styled(motion.div)`
 const Overlay = styled(motion.div)`
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 // 5:19
 function App() {
@@ -47,7 +50,9 @@ function App() {
         <Box />
         <Box />
       </Grid>
-      <AnimatePresence> {clicked ? <Overlay initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity:0}}></Overlay> : null} </AnimatePresence>
+      <AnimatePresence> {clicked ? <Overlay initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity:0}}>
+        <Box/>
+      </Overlay> : null} </AnimatePresence>
 
     </Wrapper>
   );
