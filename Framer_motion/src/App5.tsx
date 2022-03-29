@@ -32,7 +32,6 @@ const Box = styled(motion.div)`
 const Overlay = styled(motion.div)`
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   display: flex;
   justify-content: center;
@@ -45,13 +44,13 @@ function App() {
   return (
     <Wrapper onClick={toggle}>
       <Grid>
-        <Box />
+        <Box layoutId="gg" />
         <Box />
         <Box />
         <Box />
       </Grid>
-      <AnimatePresence> {clicked ? <Overlay initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity:0}}>
-        <Box/>
+      <AnimatePresence> {clicked ? <Overlay initial={{ backgroundColor: "rgba(0, 0, 0, 0)"}} animate={{backgroundColor: "rgba(0, 0, 0, 0.7)"}} exit={{backgroundColor: "rgba(0, 0, 0, 0)"}}>
+        <Box layoutId="gg" style={{width:400, height:200}}/>
       </Overlay> : null} </AnimatePresence>
 
     </Wrapper>
