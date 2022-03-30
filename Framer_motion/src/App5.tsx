@@ -39,18 +39,22 @@ const Overlay = styled(motion.div)`
 `;
 // 5:19
 function App() {
-  const [clicked, setClicked] = useState(false);
-  const toggle = () => setClicked(prev => !prev);
+  // const [clicked, setClicked] = useState(false);
+  // const toggle = () => setClicked(prev => !prev);
+  const [id, setId] = useState<null|string>(null);
   return (
-    <Wrapper onClick={toggle}>
+    // <Wrapper onClick={toggle}>
+    <Wrapper>
       <Grid>
-        <Box layoutId="gg" />
+        {/* <Box layoutId="gg" />
         <Box />
         <Box />
-        <Box />
-      </Grid>
-      <AnimatePresence> {clicked ? <Overlay initial={{ backgroundColor: "rgba(0, 0, 0, 0)"}} animate={{backgroundColor: "rgba(0, 0, 0, 0.7)"}} exit={{backgroundColor: "rgba(0, 0, 0, 0)"}}>
-        <Box layoutId="gg" style={{width:400, height:200}}/>
+        <Box /> */}
+        {["1", "2", "3", "4"].map((n)=> ( <Box onClick={() => setId(n)} key={n} layoutId={n} /> ))}
+      </Grid>{/*() => setId의 의미는 이것을 클릭했을때만 실행해주세요! 라는 뜻*/}
+      <AnimatePresence> {id ? <Overlay onClick={()=> setId(null)} initial={{ backgroundColor: "rgba(0, 0, 0, 0)"}} animate={{backgroundColor: "rgba(0, 0, 0, 0.7)"}} exit={{backgroundColor: "rgba(0, 0, 0, 0)"}}>
+        {/* <Box layoutId="gg" style={{width:400, height:200}}/> */}
+        <Box layoutId="id" style={{width:400, height:200}}/>
       </Overlay> : null} </AnimatePresence>
 
     </Wrapper>
