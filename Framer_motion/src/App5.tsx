@@ -37,7 +37,7 @@ const Overlay = styled(motion.div)`
   justify-content: center;
   align-items: center;
 `;
-// 5:19
+
 function App() {
   // const [clicked, setClicked] = useState(false);
   // const toggle = () => setClicked(prev => !prev);
