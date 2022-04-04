@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Link, useMatch } from "react-router-dom";
+import { useState } from "react";
 
 const Nav = styled.nav`
     display: flex;
-    justipy-content: space-between;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -16,6 +17,7 @@ const Nav = styled.nav`
 `;
 
 const Col = styled.div`
+    
     display: flex;
     align-items: center;
 `;
@@ -51,13 +53,16 @@ const Item = styled.li`
 `;
 
 const Search = styled.span`
+    margin-right: 100px;
     color: white;
+    display: flex;
+    align-items: center;
     svg {
         height: 25px;
     }
 `;
 
-const Circle = styled.span`
+const Circle = styled(motion.span)`
     position: absolute;
     width: 5px;
     height: 5px;
@@ -81,10 +86,16 @@ const logoVariants = {
     },
 };
 
+const Input = styled(motion.input)`
+    
+`;
+
+
 function Header() {
     const homeMatch = useMatch(''); // useRouteMatch => useMatch 로 변경 + useRouteMatch('/') => useMatch('') 상대경로도 변경
     const tvMatch = useMatch('tv'); // useRouteMatch => useMatch 로 변경 + useRouteMatch('/tv') => useMatch('tv') 상대경로도 변경
-
+    const [searchOpen, setSearchOpen] = useState(false); // []의 첫번째는 값이고 두번째는 그 값을 변경하는 함수
+    const openSearch = () => setSearchOpen((prev)=>!prev);
     return (
         <Nav>
             <Col>
@@ -101,19 +112,21 @@ function Header() {
                 <Items>
                     <Item>
                         <Link to="/">{/*a가 아닌 Link를 사용하는 이유는 외부의 사이트를 이동하는 것이 아닌 같은 웹사이트를 이동할 계획이기 때문*/}
-                        Home {homeMatch && <Circle />}
+                        Home {homeMatch && <Circle layoutId="circle"/>}
                         </Link>
                     </Item>
                     <Item>
                         <Link to="/tv">
-                            Tv Shows {tvMatch && <Circle />}
+                            Tv Shows {tvMatch && <Circle layoutId="circle"/>}
                         </Link>
                     </Item>
                 </Items>
             </Col>
             <Col>
-                <Search>
-                    <svg
+                <Search onClick={openSearch}>
+                    <motion.svg
+                        animate={{x: searchOpen ? -10: 65}}
+                        transition={{type:"linear"}}
                         fill="currentColor"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +136,12 @@ function Header() {
                             d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
                             clipRule="evenodd"
                         ></path>
-                    </svg>
+                    </motion.svg>
+                    <Input 
+                        animate={{ scaleX: searchOpen ? 1 : 0 }} 
+                        transition={{type:"linear"}}
+                        placeholder="Title, Movie, Name"
+                    />
                 </Search>
             </Col>
         </Nav>
