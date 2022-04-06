@@ -1,16 +1,15 @@
 import styled from "styled-components";
-import { motion } from "framer-motion";
+import { motion, useAnimation, useViewportScroll } from "framer-motion";
 import { Link, useMatch } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const Nav = styled.nav`
+const Nav = styled(motion.nav)`
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: black;
     font-size: 14px;
     padding: 20px 60px;
     color: white;
@@ -87,17 +86,53 @@ const logoVariants = {
 };
 
 const Input = styled(motion.input)`
-    
+    right: 0px;
+    padding: 5px 10px;
+    z-index: -1;
+    color: white;
+    border: 1px solid${(props)=>props.theme.white.lighter};
+    background-color: transparent;
 `;
 
+const navVariants = {
+    top: {
+        backgroundColor: "rgba(0,0,0,0)",
+    },
+    scroll: {
+        backgroundColor: "rgba(0,0,0,1)",
+    },
+};
 
 function Header() {
     const homeMatch = useMatch(''); // useRouteMatch => useMatch 로 변경 + useRouteMatch('/') => useMatch('') 상대경로도 변경
     const tvMatch = useMatch('tv'); // useRouteMatch => useMatch 로 변경 + useRouteMatch('/tv') => useMatch('tv') 상대경로도 변경
-    const [searchOpen, setSearchOpen] = useState(false); // []의 첫번째는 값이고 두번째는 그 값을 변경하는 함수
-    const openSearch = () => setSearchOpen((prev)=>!prev);
+    const [searchOpen, setSearchOpen] = useState(true); // []의 첫번째는 값이고 두번째는 그 값을 변경하는 함수
+    const inputAnimation = useAnimation();
+    const navAnimation = useAnimation();
+    const { scrollY } = useViewportScroll();
+    const openSearch = () => {
+        if(searchOpen){
+            inputAnimation.start({
+                scaleX: 0,
+            });
+        }else {
+            inputAnimation.start({
+                scaleX: 1,
+            });
+        } 
+        setSearchOpen((prev)=>!prev);
+    };
+    useEffect(() => {
+        scrollY.onChange(()=>{
+            if(scrollY.get() > 80){
+                navAnimation.start("scroll");
+            }else {
+                navAnimation.start("top");
+            }
+        });
+    },[scrollY, navAnimation]);
     return (
-        <Nav>
+        <Nav variants={navVariants} animate={navAnimation} initial={"top"}>
             <Col>
                 <Logo
                     variants={logoVariants}
@@ -138,7 +173,7 @@ function Header() {
                         ></path>
                     </motion.svg>
                     <Input 
-                        animate={{ scaleX: searchOpen ? 1 : 0 }} 
+                        animate={inputAnimation} 
                         transition={{type:"linear"}}
                         placeholder="Title, Movie, Name"
                     />
