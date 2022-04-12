@@ -41,6 +41,7 @@ const Overview = styled.p`
 
 const Slider = styled.div`
     position: relative;
+    top:-100px;
 `;
 
 const Row = styled(motion.div)`
@@ -58,13 +59,13 @@ const Box = styled(motion.div)`
 `;
 const rowVariants = {
     hidden: {
-        x: 1000,
+        x: window.outerWidth + 10,
     },
     visible: {
         x: 0
     },
     exit: {
-        x: -1000,
+        x: -window.outerWidth - 10,
     },
 }
 //08:05
@@ -86,7 +87,7 @@ function Home() {
                         </Banner>
                         <Slider>
                             <AnimatePresence>
-                                <Row variants={rowVariants} initial="hidden" animate="visible" exit="exit" key={index}>
+                                <Row variants={rowVariants} initial="hidden" animate="visible" exit="exit" key={index} transition={{type:"tween", duration:1}}>
                                     <Box />
                                     <Box />
                                     <Box />
