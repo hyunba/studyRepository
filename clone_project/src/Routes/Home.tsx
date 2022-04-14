@@ -22,7 +22,6 @@ const Banner = styled.div<{bgPhoto:string}>`
     flex-direction: column;
     justify-content: center;
     padding: 60px;
-    background-color: red;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), url(${(props) =>props.bgPhoto});
     background-size: cover;
 `;
@@ -62,13 +61,13 @@ const rowVariants = {
         x: window.outerWidth + 10,
     },
     visible: {
-        x: 0
+        x: 0,
     },
     exit: {
         x: -window.outerWidth - 10,
     },
 }
-//08:05
+//
 function Home() {
     const { data, isLoading } = useQuery<GetMoviesResult>(["movies", "nowPlaying"], getMovies);
     const [index, setIndex] = useState(0);
@@ -88,12 +87,8 @@ function Home() {
                         <Slider>
                             <AnimatePresence>
                                 <Row variants={rowVariants} initial="hidden" animate="visible" exit="exit" key={index} transition={{type:"tween", duration:1}}>
-                                    <Box />
-                                    <Box />
-                                    <Box />
-                                    <Box />
-                                    <Box />
-                                    <Box />
+                                    {[1, 2, 3, 4, 5, 6].map((i)=>(<Box key={i}>{i}</Box>))}
+        
                                 </Row>
                             </AnimatePresence>
                         </Slider>
