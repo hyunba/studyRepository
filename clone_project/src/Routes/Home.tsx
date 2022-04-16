@@ -25,7 +25,7 @@ const Banner = styled.div<{bgPhoto:string}>`
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), url(${(props) =>props.bgPhoto});
     background-size: cover;
 `;
-
+//포지션은 상하좌우 센터
 const Title = styled.h2`
     color: white;
     font-size: 58px;
@@ -40,38 +40,55 @@ const Overview = styled.p`
 
 const Slider = styled.div`
     position: relative;
-    top:-100px;
+    top:-200px;
 `;
 
 const Row = styled(motion.div)`
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
+    gap: 5px;
     margin bottom: 5px;
     position: absolute;
     width: 100%;
 `;
-
-const Box = styled(motion.div)`
+// 컴포넌트에 prop이 정의되지 않았기때문에 직접 정의해준다.
+const Box = styled(motion.div)<{bgPhoto:string}>`
     background-color: white;
-    height: 200px;
+    height: 180px;
+    background-image: url(${(props)=>props.bgPhoto});
+    background-size: cover;
+    background-position: center center;
 `;
 const rowVariants = {
     hidden: {
-        x: window.outerWidth + 10,
+        x: window.outerWidth + 5,
     },
     visible: {
         x: 0,
     },
     exit: {
-        x: -window.outerWidth - 10,
+        x: -window.outerWidth - 5,
     },
 }
-//
+
+const offset = 6;
+// [1~18].slice(offset*page, offset*page+offset) 처음 페이지는 0이므로 0~6개 출력 
+// {data?.results.slice(1).slice(offset*index...} slice(1)을하면 처음 출력한 영화는 제외
+
 function Home() {
     const { data, isLoading } = useQuery<GetMoviesResult>(["movies", "nowPlaying"], getMovies);
     const [index, setIndex] = useState(0);
-    const increaseIndex = () => setIndex((prev) => prev+1);
+    const [leaving, setLeaving] = useState(false);
+    const increaseIndex = () => {
+        if(data){
+        if(leaving) return;
+        setLeaving(true);
+        const totalMovies = data.results.length - 1; //영화 하나는 배너로 쓰고있으니 하나빼줌
+        const maxIndex = Math.ceil(totalMovies/offset)-1; // math.ceil은 올림. math.floor는 내림
+        // maxIndex를 하는 의미는 영화의 최대 갯수 페이지를 정해서 슬라이드를 반복시키기 위함
+        setIndex((prev) => prev === maxIndex ? 0 : prev+1); // maxIndex가 현재 4일텐데 4까지 상승하다 같아지면 다시 0으로 되돌아옴
+    }}; // 연속으로 클릭 시 빈 공간 발생하는데 setLeaving을 통해 하나가 완료가 될때만 클릭되게함.
+    const toggleLeaving = () => setLeaving((prev)=>!prev); // onExitComplete에 사용되는 토글인데 Exit가 되면 setLeaving을 원상복구한다.
     return (
         <Wrapper>
             {isLoading ? (
@@ -85,9 +102,9 @@ function Home() {
                             <Overview>{data?.results[0].overview}</Overview>
                         </Banner>
                         <Slider>
-                            <AnimatePresence>
+                            <AnimatePresence initial={false} onExitComplete={toggleLeaving}> 
                                 <Row variants={rowVariants} initial="hidden" animate="visible" exit="exit" key={index} transition={{type:"tween", duration:1}}>
-                                    {[1, 2, 3, 4, 5, 6].map((i)=>(<Box key={i}>{i}</Box>))}
+                                    {data?.results.slice(1).slice(offset*index, offset*index+offset).map((movie)=>(<Box key={movie.id} bgPhoto={makeImagePath(movie.backdrop_path, "w500")}></Box>))}
         
                                 </Row>
                             </AnimatePresence>
