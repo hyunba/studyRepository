@@ -58,6 +58,12 @@ const Box = styled(motion.div)<{bgPhoto:string}>`
     background-image: url(${(props)=>props.bgPhoto});
     background-size: cover;
     background-position: center center;
+    &:first-child {
+        transform-origin: center left;
+    }
+    &:last-child {
+        transform-origin: center right;
+    }
 `;
 const rowVariants = {
     hidden: {
@@ -74,6 +80,20 @@ const rowVariants = {
 const offset = 6;
 // [1~18].slice(offset*page, offset*page+offset) 처음 페이지는 0이므로 0~6개 출력 
 // {data?.results.slice(1).slice(offset*index...} slice(1)을하면 처음 출력한 영화는 제외
+
+const boxVariants = {
+    normal: {
+        scale: 1,
+    },
+    hover: {
+        scale: 1.3,
+        y: -40,
+        transition: {
+            delay: 0.2,
+            
+        },
+    },
+};
 
 function Home() {
     const { data, isLoading } = useQuery<GetMoviesResult>(["movies", "nowPlaying"], getMovies);
@@ -104,7 +124,9 @@ function Home() {
                         <Slider>
                             <AnimatePresence initial={false} onExitComplete={toggleLeaving}> 
                                 <Row variants={rowVariants} initial="hidden" animate="visible" exit="exit" key={index} transition={{type:"tween", duration:1}}>
-                                    {data?.results.slice(1).slice(offset*index, offset*index+offset).map((movie)=>(<Box key={movie.id} bgPhoto={makeImagePath(movie.backdrop_path, "w500")}></Box>))}
+                                    {data?.results.slice(1).slice(offset*index, offset*index+offset).map((movie)=>(
+                                        <Box key={movie.id} initial="normal" variants={boxVariants} whileHover="hover" bgPhoto={makeImagePath(movie.backdrop_path, "w500")}></Box>
+                                    ))}
         
                                 </Row>
                             </AnimatePresence>
