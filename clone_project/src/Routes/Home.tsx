@@ -65,6 +65,18 @@ const Box = styled(motion.div)<{bgPhoto:string}>`
         transform-origin: center right;
     }
 `;
+const Info = styled(motion.div)`
+    background-color: ${(props)=> props.theme.black.lighter};
+    opacity:0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    h4{
+        text-align: center;
+        font-size: 15px;
+    }
+`;
+
 const rowVariants = {
     hidden: {
         x: window.outerWidth + 5,
@@ -76,24 +88,34 @@ const rowVariants = {
         x: -window.outerWidth - 5,
     },
 }
-
-const offset = 6;
-// [1~18].slice(offset*page, offset*page+offset) 처음 페이지는 0이므로 0~6개 출력 
-// {data?.results.slice(1).slice(offset*index...} slice(1)을하면 처음 출력한 영화는 제외
-
 const boxVariants = {
     normal: {
         scale: 1,
     },
     hover: {
+        zIndex: 99,
         scale: 1.3,
         y: -40,
         transition: {
             delay: 0.2,
-            
+            duration: 0.1,            
         },
     },
 };
+const infoVariants = {
+    hover: {
+        opacity: 1,
+        transition: {
+            delay: 0.2,
+            duration: 0.1,            
+        },
+    },
+};
+
+const offset = 6;
+// [1~18].slice(offset*page, offset*page+offset) 처음 페이지는 0이므로 0~6개 출력 
+// {data?.results.slice(1).slice(offset*index...} slice(1)을하면 처음 출력한 영화는 제외
+
 
 function Home() {
     const { data, isLoading } = useQuery<GetMoviesResult>(["movies", "nowPlaying"], getMovies);
@@ -125,7 +147,10 @@ function Home() {
                             <AnimatePresence initial={false} onExitComplete={toggleLeaving}> 
                                 <Row variants={rowVariants} initial="hidden" animate="visible" exit="exit" key={index} transition={{type:"tween", duration:1}}>
                                     {data?.results.slice(1).slice(offset*index, offset*index+offset).map((movie)=>(
-                                        <Box key={movie.id} initial="normal" variants={boxVariants} whileHover="hover" bgPhoto={makeImagePath(movie.backdrop_path, "w500")}></Box>
+                                        <Box key={movie.id} initial="normal" variants={boxVariants} whileHover="hover" bgPhoto={makeImagePath(movie.backdrop_path, "w500")}>
+                                            
+                                            <Info variants={infoVariants}><h4>{movie.title}</h4></Info>
+                                        </Box>
                                     ))}
         
                                 </Row>
