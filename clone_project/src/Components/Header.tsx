@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { motion, useAnimation, useViewportScroll } from "framer-motion";
-import { Link, useMatch } from "react-router-dom";
+import { Link, useMatch, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useForm } from 'react-hook-form';
 
 const Nav = styled(motion.nav)`
     display: flex;
@@ -51,7 +52,7 @@ const Item = styled.li`
     }
 `;
 
-const Search = styled.span`
+const Search = styled.form`
     margin-right: 100px;
     color: white;
     display: flex;
@@ -86,8 +87,12 @@ const logoVariants = {
 };
 
 const Input = styled(motion.input)`
-    right: 0px;
+    transform-origin: right center;
+    position: absolute;
+    right: 160px;
     padding: 5px 10px;
+    padding-left: 30px;
+    font-size: 16px;
     z-index: -1;
     color: white;
     border: 1px solid${(props)=>props.theme.white.lighter};
@@ -101,6 +106,9 @@ const navVariants = {
     scroll: {
         backgroundColor: "rgba(0,0,0,1)",
     },
+};
+interface IForm {
+    keyword: string;
 };
 
 function Header() {
@@ -131,6 +139,14 @@ function Header() {
             }
         });
     },[scrollY, navAnimation]);
+
+    const history = useNavigate();
+    const { register, setValue, handleSubmit} = useForm<IForm>();
+    const onValid = (data: IForm) => {
+        history(`/search?keyword=${data.keyword}`);
+        setValue('keyword', '');
+    };
+
     return (
         <Nav variants={navVariants} animate={navAnimation} initial={"top"}>
             <Col>
@@ -158,9 +174,10 @@ function Header() {
                 </Items>
             </Col>
             <Col>
-                <Search onClick={openSearch}>
+                <Search onSubmit={handleSubmit(onValid)}>
                     <motion.svg
-                        animate={{x: searchOpen ? -10: 65}}
+                        onClick={openSearch} 
+                        animate={{x: searchOpen ? -250: -100}}
                         transition={{type:"linear"}}
                         fill="currentColor"
                         viewBox="0 0 20 20"
@@ -173,6 +190,7 @@ function Header() {
                         ></path>
                     </motion.svg>
                     <Input 
+                        {...register("keyword", { required: true, minLength: 2 })}
                         animate={inputAnimation} 
                         transition={{type:"linear"}}
                         placeholder="Title, Movie, Name"
