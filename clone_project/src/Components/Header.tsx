@@ -162,12 +162,12 @@ function Header() {
                 </Logo>
                 <Items>
                     <Item>
-                        <Link to="/">{/*a가 아닌 Link를 사용하는 이유는 외부의 사이트를 이동하는 것이 아닌 같은 웹사이트를 이동할 계획이기 때문*/}
+                        <Link to="/" style={{textDecoration: 'none', fontWeight: "bold"}}>{/*a가 아닌 Link를 사용하는 이유는 외부의 사이트를 이동하는 것이 아닌 같은 웹사이트를 이동할 계획이기 때문*/}
                         Home {homeMatch && <Circle layoutId="circle"/>}
                         </Link>
                     </Item>
                     <Item>
-                        <Link to="/tv">
+                        <Link to="/tv" style={{textDecoration: 'none', fontWeight: "bold"}}>
                             Tv Shows {tvMatch && <Circle layoutId="circle"/>}
                         </Link>
                     </Item>

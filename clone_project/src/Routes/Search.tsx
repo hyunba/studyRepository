@@ -18,6 +18,7 @@ const Loader = styled.div`
 `;
 const SearchTitle = styled.h1`
   padding: 0px 60px;
+  color: gray;
 `;
 
 const BoxContainer = styled.div`
@@ -34,7 +35,6 @@ const Box = styled(motion.div)<{ bgPhoto: string }>`
   margin-bottom: 20px;
   border-radius: 5px;
   position: relative;
-  box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.22);
   cursor: pointer;
 `;
 
@@ -56,15 +56,15 @@ const MediaType = styled.div`
   }
 `;
 const Info = styled(motion.div)`
-  padding: 20px;
   background-color: ${(props) => props.theme.black.darker};
   opacity: 0;
   position: absolute;
   width: 100%;
   bottom: 0;
   h4 {
+    color: gray;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
   }
 `;
 
@@ -79,15 +79,47 @@ const Overlay = styled(motion.div)`
 
 const BigMovie = styled(motion.div)`
   position: absolute;
-  width: 50vw;
+  width: 40vw;
   height: 80vh;
-  background-color: ${(props) => props.theme.black.darker};
-  box-shadow: 0px 2px 15px 0px rgba(255, 255, 255, 0.22);
+  backgroundColor: whitesmoke;
   left: 0;
   right: 0;
   margin: 0 auto;
-  overflow-y: scroll;
+  background-color: ${props => props.theme.black.lighter};
+  border-radius: 15px;
+  overflow:hidden;
 `;
+// position: absolute;
+//     width: 40vw;
+//     height: 80vh;
+//     backgroundColor: whitesmoke;
+//     left: 0;
+//     right: 0;
+//     margin: 0 auto;
+//     background-color: ${props => props.theme.black.lighter};
+//     border-radius: 15px;
+//     overflow:hidden;
+const MovieCover = styled.img`
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    
+`;
+const MovieTitle = styled.h3`
+    color: gray;
+    padding:10px;
+    position: relative;
+    top:-60px;
+    font-size:20px;
+`;
+const MovieCoverInfo = styled.p`
+    padding: 20px;
+    position: relative;
+    top: -80px;
+    color: white;
+`;
+
 
 const boxVariants = {
   normal: {
@@ -99,7 +131,7 @@ const boxVariants = {
     zIndex: 99,
     transition: {
       delay: 0.5,
-      duration: 0.3,
+      duration: 0.1,
       type: 'tween',
     },
   },
@@ -109,7 +141,7 @@ const infoVariants = {
     opacity: 1,
     transition: {
       delay: 0.5,
-      duration: 0.3,
+      duration: 0.1,
       type: 'tween',
     },
   },
@@ -122,13 +154,14 @@ const Search = () => {
   const navigate = useNavigate();
   const location = useLocation() as SearchProps;
   const keyword = new URLSearchParams(location.search).get('keyword');
-  const movieMatch = useMatch('/search/movies/:movieId');
-  const tvMatch = useMatch(`/search/tv/:tvId`);
+  // const movieMatch = useMatch('/search/movies/:movieId');
+  const movieMatch = useMatch("/search/movies/:id");
+  const tvMatch = useMatch(`/search/tv/:id`);
   const { scrollY } = useViewportScroll();
   const { data, isLoading } = useQuery<ISearchResult>(['search', keyword], () =>
     searchAll(keyword)
   );
-  const onClickBox = (mediaType: string, searchId: number) => {
+  const onBoxClicked = (mediaType: string, searchId: number) => {
     if (mediaType === 'movie') {
       navigate(`/search/movies/${searchId}`);
     } else if (mediaType === 'tv') {
@@ -142,8 +175,12 @@ const Search = () => {
     navigate(-1);
   };
 
+  const clickedMovie = movieMatch?.params.id && data?.results.find(movie => movie.id+"" === movieMatch.params.id);
+  const clickedTv = tvMatch?.params.id && data?.results.find(tv => tv.id+"" === tvMatch.params.id);
+  console.log(clickedMovie)
   return (
     <Wrapper>
+      
       <>
         <title>{`Search | ${keyword}`}</title>
       </>
@@ -162,7 +199,7 @@ const Search = () => {
                     variants={boxVariants}
                     key={search.id}
                     onClick={() => {
-                      onClickBox(search.media_type, search.id);
+                      onBoxClicked(search.media_type, search.id);
                     }}
                     bgPhoto={
                       search.backdrop_path
@@ -193,7 +230,7 @@ const Search = () => {
                     variants={boxVariants}
                     key={search.id}
                     onClick={() => {
-                      onClickBox(search.media_type, search.id);
+                      onBoxClicked(search.media_type, search.id);
                     }}
                     bgPhoto={
                       search.backdrop_path
@@ -208,7 +245,7 @@ const Search = () => {
                     <Info variants={infoVariants}>
                       <h4>{search.name}</h4>
                     </Info>
-                    <h1>{'찾으시는 결과가 없습니다.'}</h1>
+                    {/* <h1>{'찾으시는 결과가 없습니다.'}</h1> */}
                   </Box>
                 )}
               </AnimatePresence>
@@ -216,21 +253,24 @@ const Search = () => {
           </BoxContainer>
           <AnimatePresence>
             {movieMatch ? (
+              <>
               <Overlay
                 onClick={onOverlayClick}
                 exit={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
               >
                 <BigMovie
-                  style={{
-                    top: scrollY.get() + 100,
-                    bottom: scrollY.get() + 100,
-                  }}
-                  layoutId={movieMatch.params.movieId}
+                  style={{top: scrollY.get() + 50}}
+                  layoutId={movieMatch.params.id}
                 >
-                  
+                  {clickedMovie && <>
+                    <MovieCover style={{backgroundImage:`linear-gradient(to top, black, transparent), url(${makeImagePath(clickedMovie.backdrop_path,"w500")})`,}}/>
+                    <MovieTitle>{clickedMovie.title}</MovieTitle>
+                    <MovieCoverInfo>{clickedMovie.overview}</MovieCoverInfo>
+                  </>}
                 </BigMovie>
               </Overlay>
+              </>
             ) : null}
             {tvMatch ? (
               <Overlay
@@ -239,17 +279,20 @@ const Search = () => {
                 animate={{ opacity: 1 }}
               >
                 <BigMovie
-                  style={{
-                    top: scrollY.get() + 100,
-                    bottom: scrollY.get() + 100,
-                  }}
-                  layoutId={tvMatch.params.tvId}
+                  style={{top: scrollY.get() - 150}}
+                  layoutId={tvMatch.params.id}
                 >
-                  
+                  {clickedTv && <>
+                    <MovieCover style={{backgroundImage:`linear-gradient(to top, black, transparent), url(${makeImagePath(clickedTv.backdrop_path,"w500")})`,}} />
+                    <MovieTitle>{clickedTv.title}</MovieTitle>
+                    <MovieCoverInfo>{clickedTv.overview}</MovieCoverInfo>
+                  </>}
                 </BigMovie>
               </Overlay>
             ) : null}
+            
           </AnimatePresence>
+          
         </>
       )}
     </Wrapper>
