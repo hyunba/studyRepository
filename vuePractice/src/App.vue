@@ -1,4 +1,5 @@
 // template 안에는 HTML로 이루어져있다.
+// 5강 5:27
 <template>
   <div id="app">
 
@@ -10,27 +11,46 @@
     <router-view/>
     <h3>Vue </h3>
 
-    <div v-for="(a,i) in products" :key="i"><p>{{products[i]}}</p></div>
+    <div>
+      <img src="./assets/room0.jpg" class="room-img"> 
+    </div>
+    <div v-for="(a,i) in products" :key="i">
+      <p>{{products[i]}}</p>
+    </div>
+    <div>
+      <button @click="increase">클릭</button>
+      <span>{{clicked}}</span> 
+    </div>
 <!--
    v-on == @
 -->
 <br>
-    <div>
-      <button @click="increase">
+    <!-- <div>
+      <p>{{products[0]}}</p>
+      <button @click="clicked[0] += 10">
         버튼
       </button>
       <span>
-        클릭 수 : {{clicked}}
+        클릭 수 : {{clicked[0]}}
       </span>
-    </div>
-    <!-- <div>
-      <p>{{products[0]}}</p>
     </div>
     <div>
       <p>{{products[1]}}</p>
+      <button @click="clicked[1]++">
+        버튼
+      </button>
+      <span>
+        클릭 수 : {{clicked[1]}}
+      </span>
     </div>
     <div>
       <p>{{products[2]}}</p>
+      <button @click="clicked[2]++">
+        버튼
+      </button>
+      <span>
+        클릭 수 : {{clicked[2]}}
+      </span>
     </div> -->
   </div>
 </template>
@@ -54,7 +74,7 @@ export default {
   },
   methods : {
     increase() { 
-      this.clicked += 1; // 내부의 있는 data()에 있는 변수를 사용하고 싶을 시 함수의 앞에는 this를 붙여줘야한다. this란 내 오브젝트를 뜻함
+      this.clicked++; // 내부의 있는 data()에 있는 변수를 사용하고 싶을 시 함수의 앞에는 this를 붙여줘야한다. this란 내 오브젝트를 뜻함
     },
 
   },
@@ -87,6 +107,10 @@ export default {
 .menu a {
   color: white;
   padding: 10px;
+}
+.room-img {
+  width: 100%;
+  margin-top: 40px;
 }
 
 </style>
