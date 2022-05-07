@@ -3,11 +3,21 @@
 <template>
   <div id="app">
 
+    <div class="black-bg" v-if="modal_open == true">
+      <div class="white-bg">
+        <h4>상세 페이지</h4>
+        <p>
+          상세 페이지 내용
+          <button @click="modal_open = false">close</button>
+        </p>
+      </div>
+    </div>
+
     <div class="menu">
       <a v-for="(a,i) in menu_data" :key="i">{{a}}</a>    
     </div>
 
-    <img src="./assets/logo.png">
+    <img @click="modal_open = true" src="./assets/logo.png">
     <router-view/>
     <h3>Vue </h3>
 
@@ -62,6 +72,7 @@ export default {
   name: 'App',
   data(){
     return {
+      modal_open: false,
       menu_data: ['Home', 'Shop', 'About'],
       clicked: 0,
       name: "hyunba", // 데이터바인딩을 하는 이유? 1. HTML에 하드코딩할 경우 변경하기 어렵기 때문
@@ -83,6 +94,26 @@ export default {
 
 // style 안에는 CSS로 이루어져있다.
 <style>
+body {
+  margin: 0
+  
+}
+div {
+  box-sizing: border-box;
+}
+.black-bg {
+  width: 100%; 
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed; padding: 20px;
+}
+.white-bg {
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
