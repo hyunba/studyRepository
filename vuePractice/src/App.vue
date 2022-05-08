@@ -8,14 +8,15 @@
         <h4>상세 페이지</h4>
         <p>
           상세 페이지 내용
-          <button @click="modal_open = false">close</button>
         </p>
+        <button @click="modal_open = false">close</button>
       </div>
     </div>
 
     <div class="menu">
       <a v-for="(a,i) in menu_data" :key="i">{{a}}</a>    
     </div>
+    <h4>{{임포트[0].title}}</h4>
 
     <img @click="modal_open = true" src="./assets/logo.png">
     <router-view/>
@@ -68,10 +69,13 @@
 // script 안에는 JS로 이루어져있다.
 // function(함수)을 쓰는 이유는 긴 코드를 짧게 한 단어로 축약하고 싶어서 사용한다.
 <script>
+import data from './assets/data_info';
+
 export default {
   name: 'App',
   data(){
     return {
+      임포트: data,
       modal_open: false,
       menu_data: ['Home', 'Shop', 'About'],
       clicked: 0,
