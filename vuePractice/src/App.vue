@@ -1,9 +1,8 @@
 // template 안에는 HTML로 이루어져있다.
-// 5강 5:27
 <template>
   <div id="app">
 
-    <div class="black-bg" v-if="modal_open == true">
+    <!-- <div class="black-bg" v-if="modal_open == true">
       <div class="white-bg">
         <h4>상세 페이지</h4>
         <p>
@@ -31,7 +30,22 @@
     <div>
       <button @click="increase">클릭</button>
       <span>{{clicked}}</span> 
+    </div> -->
+
+    <span v-bind:title="message">dd</span>
+    <ol>
+      <li v-for="(a, i) in todos" :key="i">
+        {{ a.text }}
+      </li>
+    </ol>
+    <div>
+      <p>{{message_R}}</p>
+      <button @click="reverse">click</button>
     </div>
+    <p>{{message}}</p>
+    <input v-model = "message">
+    
+    <test/>
 <!--
    v-on == @
 -->
@@ -70,6 +84,7 @@
 // function(함수)을 쓰는 이유는 긴 코드를 짧게 한 단어로 축약하고 싶어서 사용한다.
 <script>
 import data from './assets/data_info';
+import test from '@/components/HelloWorld';
 
 export default {
   name: 'App',
@@ -85,13 +100,26 @@ export default {
                        // 4. HTML 속성도 데이터바인딩이 가능하다. (대신 {{}}을 하는 것이 아닌 :콜론을 태그 앞에 붙여주면된다. vue의 약속!)
       tag_color: 'color : blue',
       products: ['1번값', '2번값', '3번값'],
+      message: '이 페이지는' + new Date() + '에 로드 되었습니다.',
+      message_R: '안녕하세요!',
+      todos: [
+        { text: 1 },
+        { text: 2 },
+        { text: 3 },
+      ]
     }
   },
   methods : {
     increase() { 
       this.clicked++; // 내부의 있는 data()에 있는 변수를 사용하고 싶을 시 함수의 앞에는 this를 붙여줘야한다. this란 내 오브젝트를 뜻함
     },
+    reverse() {
+      this.message_R = this.message_R.split('').reverse().join('');
+    },
 
+  },
+  components: {
+    test
   },
 }
 </script>
