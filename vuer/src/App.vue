@@ -2,6 +2,15 @@
   <div class="menu">
     <a v-for="(name, i) in name" :key="i">{{name}}</a>
   </div>
+  <div>
+    <h4>{{$store.state.name}}</h4>
+    <button @click="$store.commit('nameChange')">btn</button> <!--commit으로 mutation에 있는 수정파일들을 수정한다.-->
+  </div>
+  <div>
+    <h4>{{$store.state.age}}</h4>
+    <button @click="$store.commit('numAdd')">btn</button>
+    <button @click="$store.dispatch('getData')">btn</button> <!--dispatch는 actions에 있는 파일을 불러온다.-->
+  </div>
 
   <div class="black-bg" v-if="modal == true">
     <div class="white-bg">
