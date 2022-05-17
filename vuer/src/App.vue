@@ -28,7 +28,7 @@
     <p>{{data.price}} 원</p>
   </div> -->
 
-  <MainCard :data = "data[i]" v-for="(a,i) in data" :key="i" />
+  <MainCard @openModal="modal = true" :data = "data[i]" v-for="(a,i) in data" :key="i" />
 
 </template>
 
