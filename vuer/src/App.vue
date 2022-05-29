@@ -1,14 +1,17 @@
 <template>
   <div class="modal-bg" v-if="modal === true">
     <div class="modal-inner">
-      <h4> This is Modal Page </h4>
-      <p> Modal Page Content </p>
+      <discount-banner/>
+      <h4>{{data[pageNum].title}}</h4>
+      <p>{{data[pageNum].content}}</p>
+      <p>{{data[pageNum].price}} 원</p> 
       <button @click="modalOnOff">✔️</button>
     </div>
   </div>
-  <div v-for="(d, i) in products" :key="i">
-    <h4>{{d}}</h4>
-    <p>Vue Practice</p>    
+  <div v-for="(d, i) in data" :key="i">
+    <h4 @click="modal = true; pageNum = i" >{{d.title}}</h4>
+    <p>{{d.content}}</p>
+    <p>{{d.price}} 원</p>  
   </div>
   <div>
     <button @click="increase">❤️</button> <span>좋아요 : {{like}}</span>
@@ -19,15 +22,22 @@
 </template>
 
 <script>
+import data from './assets/vue_data.js';
+import DiscountBanner from './components/DiscountBanner.vue';
 
 export default {
   name: 'App',
   data(){
     return {
+      data: data,
       modal: false,
       like: 0,
+      pageNum: 0,
       products : ['hi', 'hihi', 'hihihi']  
     }
+  },
+  components : {
+    DiscountBanner
   },
   methods : {
     increase() {

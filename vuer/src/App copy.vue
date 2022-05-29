@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import data from "./vue_data.js";
+import data from "./assets/vue_data.js";
 import DiscountBanner from "./components/DiscountBanner.vue";
 import ModalBanner from "./components/ModalBanner.vue";
 import MainCard from "./components/MainCard.vue";
