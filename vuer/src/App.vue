@@ -1,7 +1,7 @@
 <template>
   <div class="modal-bg" v-if="modal === true">
     <div class="modal-inner">
-      <discount-banner/>
+      <discount-banner @closeModal="modalOnOff" :data="data" :pageNum="pageNum" />
       <h4>{{data[pageNum].title}}</h4>
       <p>{{data[pageNum].content}}</p>
       <p>{{data[pageNum].price}} 원</p> 
