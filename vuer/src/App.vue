@@ -4,7 +4,10 @@
       <discount-banner @closeModal="modalOnOff" :data="data" :pageNum="pageNum" />
       <h4>{{data[pageNum].title}}</h4>
       <p>{{data[pageNum].content}}</p>
-      <p>{{data[pageNum].price}} 원</p> 
+      <p>월세 {{data[pageNum].price}} 원</p>
+      <input v-model.number="inputData">
+      <p>{{inputData}}개월 선택</p>
+      <p>{{data[pageNum].price * inputData}} 원</p>
       <button @click="modalOnOff">✔️</button>
     </div>
   </div>
@@ -33,7 +36,8 @@ export default {
       modal: false,
       like: 0,
       pageNum: 0,
-      products : ['hi', 'hihi', 'hihihi']  
+      products : ['hi', 'hihi', 'hihihi'],
+      inputData: 0,
     }
   },
   components : {
