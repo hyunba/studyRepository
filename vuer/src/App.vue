@@ -1,16 +1,18 @@
 <template>
-  <div class="modal-bg" v-if="modal === true">
-    <div class="modal-inner">
-      <discount-banner @closeModal="modalOnOff" :data="data" :pageNum="pageNum" />
-      <h4>{{data[pageNum].title}}</h4>
-      <p>{{data[pageNum].content}}</p>
-      <p>월세 {{data[pageNum].price}} 원</p>
-      <input v-model.number="inputData">
-      <p>{{inputData}}개월 선택</p>
-      <p>{{data[pageNum].price * inputData}} 원</p>
-      <button @click="modalOnOff">✔️</button>
+  <transition name="fade">
+    <div class="modal-bg" v-if="modal === true">
+      <div class="modal-inner">
+        <discount-banner @closeModal="modalOnOff" :data="data" :pageNum="pageNum" />
+        <h4>{{data[pageNum].title}}</h4>
+        <p>{{data[pageNum].content}}</p>
+        <p>월세 {{data[pageNum].price}} 원</p>
+        <input v-model.number="inputData">
+        <p>{{inputData}}개월 선택</p>
+        <p>{{data[pageNum].price * inputData}} 원</p>
+        <button @click="modalOnOff">✔️</button>
+      </div>
     </div>
-  </div>
+  </transition>
   <div v-for="(d, i) in data" :key="i">
     <h4 @click="modal = true; pageNum = i" >{{d.title}}</h4>
     <p>{{d.content}}</p>
@@ -21,6 +23,9 @@
     <br>
     <br>
     <button @click="modalOnOff">✔️</button> <span>모달창 : {{modal}}</span>
+    <br>
+    <br>
+    <button @click="priceSort">가격순 정렬</button> <button @click="priceBack">되돌리기</button>
   </div>
 </template>
 
@@ -32,13 +37,23 @@ export default {
   name: 'App',
   data(){
     return {
+      data_origin: [...data],
       data: data,
       modal: false,
       like: 0,
       pageNum: 0,
       products : ['hi', 'hihi', 'hihihi'],
       inputData: 0,
+
     }
+  },
+  watch : {
+    // input과 같은 사용자의 데이터를 받는 값에 경고를 주고 싶을 때 watcher로 데이터를 감시한다.
+    inputData(d){
+      if( d > 12 ){
+        alert('1년만 가능')
+      }
+    },
   },
   components : {
     DiscountBanner
@@ -49,6 +64,14 @@ export default {
     },
     modalOnOff() {
       this.modal = !this.modal
+    },
+    priceSort(){
+      this.data.sort(function(a,b){
+        return a.price - b.price
+      })
+    },
+    priceBack() {
+      this.data = [...this.data_origin];
     },
   },
 }
@@ -70,5 +93,25 @@ div {
   width: 100%; background: white;
   border-radius: 8px;
   padding: 20px;
+}
+.fade-enter-from {
+  /* opacity: 0; */
+  transform: translateY(-1000px);
+}
+.fade-enter-active {
+  transition: all 0.5s;
+}
+.fade-enter-to {
+  /* opacity: 1; */
+  transform: translateY(0px);
+}
+.fade-leave-from {
+  transform: translateY(0px);
+}
+.fade-leave-active {
+  transition: all 0.5s;
+}
+.fade-leave-to {
+  transform: translateY(-1000px);
 }
 </style>
