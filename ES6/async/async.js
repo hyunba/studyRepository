@@ -44,7 +44,7 @@ async function getApple() {
 }
 
 async function getBanana() {
-    await delay(1300);
+    await delay(1200);
     return '🍌';
 }
 
@@ -56,3 +56,17 @@ function pickFruits() {
 
 pickFruits().then(console.log);
 
+// async, await와 같이 promise 사용
+// 1. Promise.all
+function pickAllFruits() {
+    return Promise.all([getApple(), getBanana()]) // promise 배열을 전달하게되면 모든 promise들이 병렬적으로 다 받을 때까지 모아주는 역할
+    .then(fruits => fruits.join(' + ')) // then = 함수가 다 받아지면, 과일의 배열이 전달받아서 배열을 string으로 묶을 수 있는 join을 사용해서 묶어준다.
+}
+pickAllFruits().then(console.log);
+
+// 2. Promise.race
+function pickOnlyOne() {
+    return Promise.race([getApple(), getBanana()]); // race라는 api를 사용하게되면 배열에 전달된 promise 중 가장 먼저 값을 return하는 함수만 절달됨
+}
+
+pickOnlyOne().then(console.log); // 바나나 출력 (why? 현재 사과는 1.3초 뒤에 출력되고 바나나는 1.2초뒤에 출력되기 때문 race를 사용함에 따라 바나나만 출력)
