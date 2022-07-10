@@ -22,20 +22,20 @@
 // }
 
 //------------------- async --------------------------
-async function fetchUser(){ // 함수 앞에 async라는 키워드를 붙여주면 번거롭게 promise를 사용하지않아도 자동적으로 함수안에있는 코드 블록들이 promise로 변환이 되어진다.
-    // 10초 이상 걸리는 데이터 호출
-    return 'hyunba';
-}
+// async function fetchUser(){ // 함수 앞에 async라는 키워드를 붙여주면 번거롭게 promise를 사용하지않아도 자동적으로 함수안에있는 코드 블록들이 promise로 변환이 되어진다.
+//     // 10초 이상 걸리는 데이터 호출
+//     return 'hyunba';
+// }
 
-const user = fetchUser();
-user.then(console.log);
-console.log(user); 
+// const user = fetchUser();
+// user.then(console.log);
+// console.log(user); 
 
 // 2. await 
 // await은 async가 붙은 함수 안에서만 사용할 수 있다.
 
 function delay(ms) {
-    return new Promise(resolve => setTimeout(reslve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function getApple() {
@@ -47,8 +47,8 @@ async function getBanana() {
     await delay(1200);
     return '🍌';
 }
-
-function pickFruits() {
+// 주의! 항상 await은 async 안에 있어야한다.
+async function pickFruits() {
     const apple = await getApple();
     const banana = await getBanana();
     return `${apple} + ${banana}`;
@@ -70,3 +70,14 @@ function pickOnlyOne() {
 }
 
 pickOnlyOne().then(console.log); // 바나나 출력 (why? 현재 사과는 1.3초 뒤에 출력되고 바나나는 1.2초뒤에 출력되기 때문 race를 사용함에 따라 바나나만 출력)
+
+// ex)
+async function fetchItem(){
+    await delay(3000);
+    
+    return 'apple';
+}
+
+const item = fetchItem();
+item.then(console.log);
+console.log(item);
