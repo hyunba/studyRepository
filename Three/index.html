@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- 만약 환경이 vue, react, angular일 경우엔 간단하게 설치 npm install three
+            일반 html일 경우 스크립트를 넣어주면된다.
+        -->
+        <canvas id="canvas" width="300" height="300"></canvas>
+        <script type="importmap"> 
+            {
+                "imports": {
+                "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+                "GLTFLoader" : "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js"
+                }
+            }
+        </script>
+        <script type="module">
+            import {GLTFLoader} from 'GLTFLoader';
+            import * as THREE from 'three';
+            // 두 개 import 한 후 시작하면 됨
+            // npm install three의 경우 import {  GLTFLoader  } from 'three/examples/jsm/loaders/GLTFLoader' 로 사용
+        </script>
+    </body>
+</html>
