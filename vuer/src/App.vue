@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <transition name="fade">
     <div class="modal-bg" v-if="modal === true">
       <div class="modal-inner">
@@ -27,11 +27,16 @@
     <br>
     <button @click="priceSort">가격순 정렬</button> <button @click="priceBack">되돌리기</button>
   </div>
+</template> -->
+<template>
+  <List :blog="blog_content" />
 </template>
 
 <script>
 import data from './assets/vue_data.js';
+import blog_content_data from './assts/blog_content.js';
 import DiscountBanner from './components/DiscountBanner.vue';
+import List from './components/List.vue';
 
 export default {
   name: 'App',
@@ -44,7 +49,7 @@ export default {
       pageNum: 0,
       products : ['hi', 'hihi', 'hihihi'],
       inputData: 0,
-
+      blog_content: blog_content_data,
     }
   },
   watch : {
@@ -56,7 +61,8 @@ export default {
     },
   },
   components : {
-    DiscountBanner
+    DiscountBanner,
+    List
   },
   methods : {
     increase() {
