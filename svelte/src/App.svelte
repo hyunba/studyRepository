@@ -1,14 +1,16 @@
 <script>
+	import Nested from './Nested.svelte';
 	let name = 'Lee';
 	let src = 'https://svelte.dev/tutorial/image.gif';
 	let string = `this string contains some <strong>hihi</strong>`;// {@html}은 html 그대로 출력해줌
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>Hell {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 	<img {src} alt="A img">
 	<p>haha {@html string}</p>
+	<Nested />
 </main>
 
 <style>
